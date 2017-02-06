@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bookStoreApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Store</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script> -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header> Cabecera </header>
+    <main ng-view>
+    </main>
+    <p>{{ 5 + 6 }}</p>
+    <footer> Pie </footer>
+    <script src="app/app.module.js"></script>
+    <!-- <script src="app/service/bookStore.service.js"></script> -->
+    <!-- <script src="app/home/home.controller.js"></script> -->
+    <script src="app/overview/overview.controller.js"></script>
+
+    <script src="app/app.config.js"></script>
+</body>
+
+</html>

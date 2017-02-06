@@ -1,0 +1,4787 @@
+https://api.nytimes.com//svc/books/v3/lists/overview?api-key=0b43b9cd5a3c4f81b07b260f4fd8f888
+{
+"status": "OK",
+"copyright": "Copyright (c) 2017 The New York Times Company.  All Rights Reserved.",
+"num_results": 120,
+"results": {
+"bestsellers_date": "2017-01-28",
+"published_date": "2017-02-12",
+"published_date_description": "latest",
+"previous_published_date": "2017-02-05",
+"next_published_date": "",
+"lists": [
+{
+"list_id": 704,
+"list_name": "Combined Print and E-Book Fiction",
+"list_name_encoded": "combined-print-and-e-book-fiction",
+"display_name": "Combined Print & E-Book Fiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780765330345.jpg",
+"list_image_width": 128,
+"list_image_height": 191,
+"books": []
+},
+{
+"list_id": 708,
+"list_name": "Combined Print and E-Book Nonfiction",
+"list_name_encoded": "combined-print-and-e-book-nonfiction",
+"display_name": "Combined Print & E-Book Nonfiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"list_image_width": 334,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margot Lee Shetterly",
+"book_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margot Lee Shetterly",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:10",
+"description": "he story, based in part on interviews, of the black women mathematicians who were hired as “computers” by the precursor of NASA during World War II. The basis of the movie.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062363603",
+"primary_isbn13": "9780062363602",
+"publisher": "Morrow/HarperCollins",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "HIDDEN FIGURES",
+"updated_date": "2017-02-02 17:00:10",
+"weeks_on_list": 7,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062363602?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062363602"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J D Vance",
+"book_image": "https://s1.nyt.com/du/books/images/9780062300560.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J. D. Vance",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:10",
+"description": "A Yale Law School graduate looks at the struggles of the white working class through the story of his own childhood in the Rust Belt.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062300547",
+"primary_isbn13": "9780062300546",
+"publisher": "HarperCollins",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "HILLBILLY ELEGY",
+"updated_date": "2017-02-02 17:00:10",
+"weeks_on_list": 27,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062300546?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062300546"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Killing-Rising-Sun-America-Vanquished-ebook/dp/B01CNTUGF4?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Bill O'Reilly and Martin Dugard",
+"book_image": "https://s1.nyt.com/du/books/images/9781627790635.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Bill O'Reilly and Martin Dugard",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:10",
+"description": "The host of “The O’Reilly Factor” recounts the final years of World War II.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1627790624",
+"primary_isbn13": "9781627790628",
+"publisher": "Holt",
+"rank": 3,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "KILLING THE RISING SUN",
+"updated_date": "2017-02-02 17:00:10",
+"weeks_on_list": 20,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781627790628?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781627790628"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Killing-Rising-Sun-America-Vanquished-ebook/dp/B01CNTUGF4?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Three-Days-January-Eisenhowers-Mission-ebook/dp/B01ER6LJFM?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Bret Baier with Catherine Whitney",
+"book_image": "https://s1.nyt.com/du/books/images/9780062569066.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Bret Baier with Catherine Whitney",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:10",
+"description": "Eisenhower’s farewell address and his role in the Kennedy transition.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062569031",
+"primary_isbn13": "9780062569035",
+"publisher": "Morrow/HarperCollins",
+"rank": 4,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "THREE DAYS IN JANUARY",
+"updated_date": "2017-02-02 17:00:10",
+"weeks_on_list": 3,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062569035?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062569035"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Three-Days-January-Eisenhowers-Mission-ebook/dp/B01ER6LJFM?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Chip Gaines and Joanna Gaines with Mark Dagostino",
+"book_image": "https://s1.nyt.com/du/books/images/9780718081539.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Chip Gaines and Joanna Gaines with Mark Dagostino",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:10",
+"description": "The couple who star in the HGTV show “Fixer Upper.”",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0718079183",
+"primary_isbn13": "9780718079185",
+"publisher": "W Publishing/Thomas Nelson",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "THE MAGNOLIA STORY",
+"updated_date": "2017-02-02 17:00:10",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780718079185?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780718079185"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 1,
+"list_name": "Hardcover Fiction",
+"list_name_encoded": "hardcover-fiction",
+"display_name": "Hardcover Fiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780316434720.jpg",
+"list_image_width": 327,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Never-James-Patterson-ebook/dp/B01LZANZGP?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "James Patterson and Candice Fox",
+"book_image": "https://s1.nyt.com/du/books/images/9780316434720.jpg",
+"book_image_width": 327,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by James Patterson and Candice Fox",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:03",
+"description": "Harriet Blue, a Sydney sex crimes detective, is sent to the outback (the never never) to investigate the disappearance of a mine worker. The first in a new series.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0316433179",
+"primary_isbn13": "9780316433174",
+"publisher": "Little, Brown",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "NEVER NEVER",
+"updated_date": "2017-02-02 17:00:03",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780316433174?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316433174"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Never-James-Patterson-ebook/dp/B01LZANZGP?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Underground-Railroad-Oprahs-Book-Club/dp/0385542364?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Colson Whitehead",
+"book_image": "https://s1.nyt.com/du/books/images/9780385542364.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/08/14/books/review/colson-whitehead-underground-railroad.html",
+"contributor": "by Colson Whitehead",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:03",
+"description": "A slave girl heads toward freedom on the network, envisioned as actual tracks and tunnels.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0385542364",
+"primary_isbn13": "9780385542364",
+"publisher": "Doubleday",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THE UNDERGROUND RAILROAD",
+"updated_date": "2017-02-02 17:00:03",
+"weeks_on_list": 25,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780385542364?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385542364"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Underground-Railroad-Oprahs-Book-Club/dp/0385542364?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Whistler-John-Grisham-ebook/dp/B01C1LUFFK?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "John Grisham",
+"book_image": "https://s1.nyt.com/du/books/images/9780385541206.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/11/06/books/review/john-grisham-whistler.html",
+"contributor": "by John Grisham",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:03",
+"description": "A whistleblower alerts a Florida investigator to judicial corruption involving the Mob and Indian casinos.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0385541198",
+"primary_isbn13": "9780385541190",
+"publisher": "Doubleday",
+"rank": 3,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "THE WHISTLER",
+"updated_date": "2017-02-02 17:00:03",
+"weeks_on_list": 14,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780385541190?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385541190"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Whistler-John-Grisham-ebook/dp/B01C1LUFFK?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Nicholas Sparks",
+"book_image": "https://s1.nyt.com/du/books/images/9781455520701.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Nicholas Sparks",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:03",
+"description": "A man who became a single father when his marriage and business collapsed learns to take a chance on a new love.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1455520691",
+"primary_isbn13": "9781455520695",
+"publisher": "Grand Central",
+"rank": 4,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "TWO BY TWO",
+"updated_date": "2017-02-02 17:00:03",
+"weeks_on_list": 17,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781455520695?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455520695"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Girl-Before-Novel-JP-Delaney-ebook/dp/B01EE0CRKW?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J P Delaney",
+"book_image": "https://s1.nyt.com/du/books/images/9780425285053.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J P Delaney",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:03",
+"description": "A sadistic architect builds a modern house that controls its (young, female) inhabitants in this psychological thriller, soon to be a major motion picture.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0425285049",
+"primary_isbn13": "9780425285046",
+"publisher": "Ballantine",
+"rank": 5,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE GIRL BEFORE",
+"updated_date": "2017-02-02 17:00:03",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780425285046?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780425285046"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Girl-Before-Novel-JP-Delaney-ebook/dp/B01EE0CRKW?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 2,
+"list_name": "Hardcover Nonfiction",
+"list_name_encoded": "hardcover-nonfiction",
+"display_name": "Hardcover Nonfiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062300560.jpg",
+"list_image_width": 331,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J D Vance",
+"book_image": "https://s1.nyt.com/du/books/images/9780062300560.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J. D. Vance",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "A Yale Law School graduate looks at the struggles of America’s white working class through his own childhood in the Rust Belt.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062300547",
+"primary_isbn13": "9780062300546",
+"publisher": "HarperCollins",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "HILLBILLY ELEGY",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 27,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062300546?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062300546"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Killing-Rising-Sun-America-Vanquished-ebook/dp/B01CNTUGF4?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Bill O'Reilly and Martin Dugard",
+"book_image": "https://s1.nyt.com/du/books/images/9781627790635.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Bill O'Reilly and Martin Dugard",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "The host of “The O’Reilly Factor” recounts the final years of World War II.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1627790624",
+"primary_isbn13": "9781627790628",
+"publisher": "Holt",
+"rank": 2,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "KILLING THE RISING SUN",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 20,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781627790628?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781627790628"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Killing-Rising-Sun-America-Vanquished-ebook/dp/B01CNTUGF4?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Three-Days-January-Eisenhowers-Mission-ebook/dp/B01ER6LJFM?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Bret Baier with Catherine Whitney",
+"book_image": "https://s1.nyt.com/du/books/images/9780062569066.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Bret Baier with Catherine Whitney",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "Eisenhower’s farewell address and his role in the Kennedy transition.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062569031",
+"primary_isbn13": "9780062569035",
+"publisher": "Morrow/HarperCollins",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THREE DAYS IN JANUARY",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 3,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062569035?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062569035"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Three-Days-January-Eisenhowers-Mission-ebook/dp/B01ER6LJFM?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Chip Gaines and Joanna Gaines with Mark Dagostino",
+"book_image": "https://s1.nyt.com/du/books/images/9780718081539.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Chip Gaines and Joanna Gaines with Mark Dagostino",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "The lives of the couple who star in the HGTV show “Fixer Upper.”",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0718079183",
+"primary_isbn13": "9780718079185",
+"publisher": "W Publishing/Thomas Nelson",
+"rank": 4,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "THE MAGNOLIA STORY",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780718079185?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780718079185"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Book-Joy-Lasting-Happiness-Changing/dp/0399185046?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Dalai Lama and Desmond Tutu",
+"book_image": "https://s1.nyt.com/du/books/images/9780399185045.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Dalai Lama and Desmond Tutu",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "A discussion between two spiritual leaders about how to find joy in the face of suffering.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0399185046",
+"primary_isbn13": "9780399185045",
+"publisher": "Avery",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "THE BOOK OF JOY",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780399185045?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780399185045"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Book-Joy-Lasting-Happiness-Changing/dp/0399185046?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 17,
+"list_name": "Trade Fiction Paperback",
+"list_name_encoded": "trade-fiction-paperback",
+"display_name": "Paperback Trade Fiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780765330345.jpg",
+"list_image_width": 128,
+"list_image_height": 191,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dogs-Purpose-W-Bruce-Cameron/dp/0765330342?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "W Bruce Cameron",
+"book_image": "https://s1.nyt.com/du/books/images/9780765330345.jpg",
+"book_image_width": 128,
+"book_image_height": 191,
+"book_review_link": "",
+"contributor": "by W. Bruce Cameron",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "A canine narrator undergoes a series of reincarnations.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0765388111",
+"primary_isbn13": "9780765388117",
+"publisher": "Forge",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "A DOG'S PURPOSE",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 25,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780765388117?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780765388117"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dogs-Purpose-W-Bruce-Cameron/dp/0765330342?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Fredrik Backman",
+"book_image": "https://s1.nyt.com/du/books/images/9781476738024.jpg",
+"book_image_width": 321,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Fredrik Backman",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "A curmudgeon's gruff exterior masks a generosity of spirit. Originally published in Sweden in 2014.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1476738025",
+"primary_isbn13": "9781476738024",
+"publisher": "Washington Square",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "A MAN CALLED OVE",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 57,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781476738024?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781476738024"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rupi Kaur",
+"book_image": "https://s1.nyt.com/du/books/images/9781449474256.jpg",
+"book_image_width": 322,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Rupi Kaur",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "Poetic approaches to surviving adversity and loss.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "144947425X",
+"primary_isbn13": "9781449474256",
+"publisher": "Andrews McMeel",
+"rank": 3,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "MILK AND HONEY",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 42,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781449474256?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781449474256"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Grandmother-Asked-Tell-Shes-Sorry/dp/1501115073?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Fredrik Backman",
+"book_image": "https://s1.nyt.com/du/books/images/9781501115073.jpg",
+"book_image_width": 322,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Fredrik Backman",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "A girl is instructed to deliver a series of letters after her grandmother dies.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1501115073",
+"primary_isbn13": "9781501115073",
+"publisher": "Washington Square",
+"rank": 4,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "MY GRANDMOTHER ASKED ME TO TELL YOU SHE'S SORRY",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 41,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781501115073?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501115073"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Grandmother-Asked-Tell-Shes-Sorry/dp/1501115073?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Widow-Fiona-Barton-ebook/dp/B00Z8VT8AE?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Fiona Barton",
+"book_image": "https://s1.nyt.com/du/books/images/9781101990469.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Fiona Barton",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "When a suspect in a missing-child case dies, reporters and the police wrongly think they’ll get the real story from his widow.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1101990473",
+"primary_isbn13": "9781101990476",
+"publisher": "Berkley",
+"rank": 5,
+"rank_last_week": 7,
+"sunday_review_link": "",
+"title": "THE WIDOW",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781101990476?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101990476"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Widow-Fiona-Barton-ebook/dp/B00Z8VT8AE?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 18,
+"list_name": "Mass Market Paperback",
+"list_name_encoded": "mass-market-paperback",
+"display_name": "Paperback Mass-Market Fiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780553391848.jpg",
+"list_image_width": 329,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Sweet-Tomorrows-Rose-Harbor-Novel-ebook/dp/B017QLRN1Y?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Debbie Macomber",
+"book_image": "https://s1.nyt.com/du/books/images/9780553391848.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Debbie Macomber",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:09",
+"description": "The journeys of the characters at the Rose Harbor Inn come to a close in this last book of the series.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0553391860",
+"primary_isbn13": "9780553391862",
+"publisher": "Ballantine",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "SWEET TOMORROWS",
+"updated_date": "2017-01-19 17:00:09",
+"weeks_on_list": 3,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780553391862?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780553391862"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Sweet-Tomorrows-Rose-Harbor-Novel-ebook/dp/B017QLRN1Y?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Murder-House-James-Patterson-ebook/dp/B00QQQL8JY?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "James Patterson and David Ellis",
+"book_image": "https://s1.nyt.com/du/books/images/9780316337977.jpg",
+"book_image_width": 326,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by James Patterson and David Ellis",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:09",
+"description": "When bodies are found at a Hamptons estate where a series of grisly murders once occurred, a local detective and former New York City cop investigates.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1455589918",
+"primary_isbn13": "9781455589913",
+"publisher": "Vision",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THE MURDER HOUSE",
+"updated_date": "2017-01-19 17:00:09",
+"weeks_on_list": 4,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781455589913?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455589913"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Murder-House-James-Patterson-ebook/dp/B00QQQL8JY?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Apprentice-Death-J-D-Robb/dp/1101987979?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J D Robb",
+"book_image": "https://s1.nyt.com/du/books/images/9781101987971.jpg",
+"book_image_width": 336,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J. D. Robb",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:09",
+"description": "Lt. Eve Dallas of the N.Y.P.D. is on the case when three skaters are shot by a sniper. By Nora Roberts, writing pseudonymously.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1101987995",
+"primary_isbn13": "9781101987995",
+"publisher": "Berkley",
+"rank": 3,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "APPRENTICE IN DEATH",
+"updated_date": "2017-01-19 17:00:09",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781101987995?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101987995"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Apprentice-Death-J-D-Robb/dp/1101987979?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dogs-Purpose-W-Bruce-Cameron/dp/0765330342?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "W Bruce Cameron",
+"book_image": "https://s1.nyt.com/du/books/images/9780765330345.jpg",
+"book_image_width": 128,
+"book_image_height": 191,
+"book_review_link": "",
+"contributor": "by W. Bruce Cameron",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:09",
+"description": "From stray mutt to golden-haired puppy, a dog finds himself reincarnated over the years as he searches for his purpose in life.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0765388103",
+"primary_isbn13": "9780765388100",
+"publisher": "Forge",
+"rank": 4,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "A DOG'S PURPOSE",
+"updated_date": "2017-01-19 17:00:09",
+"weeks_on_list": 6,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780765388100?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780765388100"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dogs-Purpose-W-Bruce-Cameron/dp/0765330342?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Mulberry-Mystic-Creek-Catherine-Anderson/dp/0451488024?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Catherine Anderson",
+"book_image": "https://s1.nyt.com/du/books/images/9780451488022.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Catherine Anderson",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:09",
+"description": "Ben Sterling returns home to Mystic Creek to settle down and start a family, but the woman of his interest is more than a little resistant. As she warms to him, her past comes back to interfere.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0451488024",
+"primary_isbn13": "9780451488022",
+"publisher": "Jove",
+"rank": 5,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "MULBERRY MOON",
+"updated_date": "2017-01-19 17:00:09",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780451488022?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780451488022"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Mulberry-Mystic-Creek-Catherine-Anderson/dp/0451488024?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 4,
+"list_name": "Paperback Nonfiction",
+"list_name_encoded": "paperback-nonfiction",
+"display_name": "Paperback Nonfiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"list_image_width": 334,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margot Lee Shetterly",
+"book_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margot Lee Shetterly",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "he story, based in part on interviews, of the black women mathematicians who were hired as “computers” by the precursor of NASA during World War II. The basis of the movie.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062363603",
+"primary_isbn13": "9780062363602",
+"publisher": "Morrow/HarperCollins",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "HIDDEN FIGURES",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 8,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062363602?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062363602"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Alexander-Hamilton-Ron-Chernow-ebook/dp/B000QJLQZI?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Ron Chernow",
+"book_image": "https://s1.nyt.com/du/books/images/9780143034759.jpg",
+"book_image_width": 181,
+"book_image_height": 280,
+"book_review_link": "https://www.nytimes.com/2004/04/22/books/books-of-the-times-inspired-windbag-who-molded-the-us-government.html",
+"contributor": "by Ron Chernow",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "A biography of the first Treasury secretary. Originally published in 2004 and the basis of the Broadway musical.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0143034758",
+"primary_isbn13": "9780143034759",
+"publisher": "Penguin",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "https://www.nytimes.com/2004/04/25/books/creating-capitalism.html",
+"title": "ALEXANDER HAMILTON",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 68,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780143034759?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780143034759"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Alexander-Hamilton-Ron-Chernow-ebook/dp/B000QJLQZI?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/We-Should-All-Be-Feminists/dp/110191176X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Chimamanda Ngozi Adichie",
+"book_image": "https://s1.nyt.com/du/books/images/9781101911761.jpg",
+"book_image_width": 128,
+"book_image_height": 183,
+"book_review_link": "",
+"contributor": "by Chimamanda Ngozi Adichie",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "The adapted text of the much-watched TED talk by the Nigerian author.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "110191176X",
+"primary_isbn13": "9781101911761",
+"publisher": "Anchor",
+"rank": 3,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "WE SHOULD ALL BE FEMINISTS",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781101911761?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101911761"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/We-Should-All-Be-Feminists/dp/110191176X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dark-Money-History-Billionaires-Radical-ebook/dp/B0180SU4OA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Jane Mayer",
+"book_image": "https://s1.nyt.com/du/books/images/9780385535601.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Jane Mayer",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "An account of how the Koch brothers and other super-wealthy donors deployed their money to change American politics.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0307947904",
+"primary_isbn13": "9780307947901",
+"publisher": "Anchor",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "https://www.nytimes.com/2016/01/24/books/review/dark-money-by-jane-mayer.html",
+"title": "DARK MONEY",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780307947901?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780307947901"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dark-Money-History-Billionaires-Radical-ebook/dp/B0180SU4OA?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-New-Crow-Incarceration-Colorblindness/dp/1595586431?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Michelle Alexander",
+"book_image": "https://s1.nyt.com/du/books/images/9781595586438.jpg",
+"book_image_width": 128,
+"book_image_height": 191,
+"book_review_link": "",
+"contributor": "by Michelle Alexander",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "A law professor on the “war on drugs” and its role in the disproportionate incarceration of black men.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1595586431",
+"primary_isbn13": "9781595586438",
+"publisher": "New Press",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "THE NEW JIM CROW",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 146,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781595586438?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781595586438"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-New-Crow-Incarceration-Colorblindness/dp/1595586431?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 201,
+"list_name": "E-Book Fiction",
+"list_name_encoded": "e-book-fiction",
+"display_name": "E-Book Fiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/A00B01MT5HMRV.jpg",
+"list_image_width": 313,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Full-Package-Lauren-Blakely-ebook/dp/B01MT5HMRV?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Lauren Blakely",
+"book_image": "https://s1.nyt.com/du/books/images/A00B01MT5HMRV.jpg",
+"book_image_width": 313,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Lauren Blakely",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "A man shares a cramped apartment with his friend's fetching sister.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "A00B01MT5HMRV",
+"publisher": "Lauren Blakely",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "FULL PACKAGE",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/search/book?searchfor=FULL+PACKAGE+Lauren+Blakely&aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fs%2FFULL+PACKAGE+Lauren+Blakely"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Full-Package-Lauren-Blakely-ebook/dp/B01MT5HMRV?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Guernsey-Literary-Potato-Peel-Society/dp/0385340990?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Mary Ann Shaffer and Annie Barrows",
+"book_image": "https://s1.nyt.com/du/books/images/9780385341004.jpg",
+"book_image_width": 317,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Mary Ann Shaffer and Annie Barrows",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "After World War II, a journalist travels to the island of Guernsey to meet residents who resisted the Nazi occupation. Originally published in 2008.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0440337976",
+"primary_isbn13": "9780440337973",
+"publisher": "Dial",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE GUERNSEY LITERARY AND POTATO PEEL PIE SOCIETY",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780440337973?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780440337973"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Guernsey-Literary-Potato-Peel-Society/dp/0385340990?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Whistler-John-Grisham-ebook/dp/B01C1LUFFK?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "John Grisham",
+"book_image": "https://s1.nyt.com/du/books/images/9780385541206.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/11/06/books/review/john-grisham-whistler.html",
+"contributor": "by John Grisham",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "A whistleblower alerts a Florida investigator to judicial corruption involving the Mob and Indian casinos.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0385541201",
+"primary_isbn13": "9780385541206",
+"publisher": "Doubleday",
+"rank": 3,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "THE WHISTLER",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 12,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780385541206?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385541206"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Whistler-John-Grisham-ebook/dp/B01C1LUFFK?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Ring-Fire-Pike-Logan-Thriller/dp/1101984767?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Brad Taylor",
+"book_image": "https://s1.nyt.com/du/books/images/9781101984765.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Brad Taylor",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "Pike Logan, a member of a secret counterterrorist unit called the Taskforce, investigates a Saudi-backed Moroccan terrorist cell.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "9781101984772",
+"publisher": "Dutton",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "RING OF FIRE",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781101984772?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101984772"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Ring-Fire-Pike-Logan-Thriller/dp/1101984767?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Small-Great-Things-Jodi-Picoult-ebook/dp/B01AQNYZ3I?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Jodi Picoult",
+"book_image": "https://s1.nyt.com/du/books/images/9780345544964.jpg",
+"book_image_width": 336,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/10/16/books/review/jodi-picoult-small-great-things-roxane-gay.html",
+"contributor": "by Jodi Picoult",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "A medical crisis entangles a black nurse, a white supremacist father and a white lawyer.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "034554496X",
+"primary_isbn13": "9780345544964",
+"publisher": "Ballantine",
+"rank": 5,
+"rank_last_week": 7,
+"sunday_review_link": "",
+"title": "SMALL GREAT THINGS",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 9,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780345544964?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780345544964"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Small-Great-Things-Jodi-Picoult-ebook/dp/B01AQNYZ3I?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 202,
+"list_name": "E-Book Nonfiction",
+"list_name_encoded": "e-book-nonfiction",
+"display_name": "E-Book Nonfiction",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"list_image_width": 334,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margot Lee Shetterly",
+"book_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margot Lee Shetterly",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "The black women mathematicians who worked at then-segregated NASA. The basis of the movie.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062363611",
+"primary_isbn13": "9780062363619",
+"publisher": "Morrow/HarperCollins",
+"rank": 1,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "HIDDEN FIGURES",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 5,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062363619?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062363619"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J D Vance",
+"book_image": "https://s1.nyt.com/du/books/images/9780062300560.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J. D. Vance",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A Yale Law School graduate looks at the struggles of the white working class through the story of his own childhood in the Rust Belt.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062300563",
+"primary_isbn13": "9780062300560",
+"publisher": "HarperCollins",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "HILLBILLY ELEGY",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 25,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062300560?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062300560"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Unsinkable-A-Memoir-Debbie-Reynolds/dp/0062213652?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Debbie Reynolds and Dorian Hannaway",
+"book_image": "https://s1.nyt.com/du/books/images/9780062213655.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Debbie Reynolds and Dorian Hannaway",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A second memoir by the actress, singer and dancer; originally published in 2013.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "",
+"primary_isbn13": "9780062213679",
+"publisher": "Morrow",
+"rank": 3,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "UNSINKABLE",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 7,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062213679?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062213679"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Unsinkable-A-Memoir-Debbie-Reynolds/dp/0062213652?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Lost-City-Monkey-God-Story-ebook/dp/B01G1K1RTA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Douglas Preston",
+"book_image": "https://s1.nyt.com/du/books/images/9781455540020.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Douglas Preston",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A frightening search for a lost civilization in the Honduran rain forest.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1455540021",
+"primary_isbn13": "9781455540020",
+"publisher": "Grand Central",
+"rank": 4,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "THE LOST CITY OF THE MONKEY GOD",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781455540020?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455540020"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Lost-City-Monkey-God-Story-ebook/dp/B01G1K1RTA?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Wishful-Drinking-Carrie-Fisher-ebook/dp/B001NLKS02?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Carrie Fisher",
+"book_image": "https://s1.nyt.com/du/books/images/9781439102251.jpg",
+"book_image_width": 318,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2009/01/02/books/02book.html",
+"contributor": "by Carrie Fisher",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A memoir based on Fisher’s one-woman autobiographical show. Originally published in 2008.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1439153809",
+"primary_isbn13": "9781439153802",
+"publisher": "Simon & Schuster",
+"rank": 5,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "WISHFUL DRINKING",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 3,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781439153802?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781439153802"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Wishful-Drinking-Carrie-Fisher-ebook/dp/B001NLKS02?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 24,
+"list_name": "Advice How-To and Miscellaneous",
+"list_name_encoded": "advice-how-to-and-miscellaneous",
+"display_name": "Advice, How-To & Miscellaneous",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781328683786.jpg",
+"list_image_width": 389,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Tim Ferriss",
+"book_image": "https://s1.nyt.com/du/books/images/9781328683786.jpg",
+"book_image_width": 389,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Tim Ferriss",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "The tactics, strategies and habits of billionaires, icons and world-class performers, by the technology investor and podcast host.†",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1328683788",
+"primary_isbn13": "9781328683786",
+"publisher": "Houghton Mifflin Harcourt",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "TOOLS OF TITANS",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 8,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781328683786?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781328683786"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/You-Are-Badass-Doubting-Greatness-ebook/dp/B00B3M3VWS?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Jen Sincero",
+"book_image": "https://s1.nyt.com/du/books/images/9780762447695.jpg",
+"book_image_width": 318,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Jen Sincero",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "Tips for the doubtful and self-effacing on roaring ahead through life, delivered with stories, insights and exercises.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0762447699",
+"primary_isbn13": "9780762447695",
+"publisher": "Running Press",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "YOU ARE A BADASS",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 55,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780762447695?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780762447695"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/You-Are-Badass-Doubting-Greatness-ebook/dp/B00B3M3VWS?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Love-Languages-Secret-Lasts/dp/0802473156?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Gary Chapman",
+"book_image": "https://s1.nyt.com/du/books/images/9780802473158.jpg",
+"book_image_width": 268,
+"book_image_height": 400,
+"book_review_link": "",
+"contributor": "by Gary Chapman",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "A guide to communicating love in a way that a spouse will understand.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "080241270X",
+"primary_isbn13": "9780802412706",
+"publisher": "Northfield",
+"rank": 3,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "THE FIVE LOVE LANGUAGES",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 185,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780802412706?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780802412706"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Love-Languages-Secret-Lasts/dp/0802473156?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Mark Manson",
+"book_image": "https://s1.nyt.com/du/books/images/9780062457714.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Mark Manson",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "How to stop trying to be \"positive\" all the time and, instead, become better at handling adversity.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062457713",
+"primary_isbn13": "9780062457714",
+"publisher": "HarperOne/HarperCollins",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE SUBTLE ART OF NOT GIVING A ----------",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 7,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062457714?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062457714"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Whole30-30-Day-Health-Freedom/dp/0544609719?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Melissa Hartwig",
+"book_image": "https://s1.nyt.com/du/books/images/9780544609716.jpg",
+"book_image_width": 446,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Melissa Hartwig",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:07",
+"description": "An overview of a 30-day guide to better health, weight loss, improved digestion and a stronger immune system.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0544609719",
+"primary_isbn13": "9780544609716",
+"publisher": "Houghton Mifflin Harcourt",
+"rank": 5,
+"rank_last_week": 6,
+"sunday_review_link": "",
+"title": "THE WHOLE30",
+"updated_date": "2017-02-02 17:00:07",
+"weeks_on_list": 69,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780544609716?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780544609716"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Whole30-30-Day-Health-Freedom/dp/0544609719?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 213,
+"list_name": "Childrens Middle Grade E-Book",
+"list_name_encoded": "childrens-middle-grade-e-book",
+"display_name": "Children’s Middle Grade E-Book",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781423160922.jpg",
+"list_image_width": 330,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Magnus-Chase-Gods-Asgard-Hammer/dp/1423160924?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rick Riordan",
+"book_image": "https://s1.nyt.com/du/books/images/9781423160922.jpg",
+"book_image_width": 330,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Rick Riordan",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Magnus Chase and his friends must find Thor’s signature accessory.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "9781484758595",
+"publisher": "Disney-Hyperion",
+"rank": 1,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THE HAMMER OF THOR",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781484758595?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781484758595"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Magnus-Chase-Gods-Asgard-Hammer/dp/1423160924?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "R J Palacio",
+"book_image": "https://s1.nyt.com/du/books/images/9780375899881.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by R. J. Palacio",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A boy with a facial deformity starts school.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "037589988X",
+"primary_isbn13": "9780375899881",
+"publisher": "Knopf",
+"rank": 2,
+"rank_last_week": 5,
+"sunday_review_link": "https://www.nytimes.com/2012/04/08/books/review/wonder-by-r-j-palacio.html",
+"title": "WONDER",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 58,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780375899881?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780375899881"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Trials-Apollo-Book-Hidden/dp/148473274X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rick Riordan",
+"book_image": "https://s1.nyt.com/du/books/images/9781484732748.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Rick Riordan",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Apollo, now a mortal teenager with acne, sets out to restore his tarnished reputation.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "9781484736678",
+"publisher": "Disney-Hyperion",
+"rank": 3,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "THE HIDDEN ORACLE",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 37,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781484736678?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781484736678"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Trials-Apollo-Book-Hidden/dp/148473274X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Magnus-Chase-Gods-Asgard-Book-ebook/dp/B00O87NWBK?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rick Riordan",
+"book_image": "https://s1.nyt.com/du/books/images/9781423160915.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Rick Riordan",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "A teenager sets out to retrieve an ancient Norse sword.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1484719328",
+"primary_isbn13": "9781484719329",
+"publisher": "Disney-Hyperion",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "https://www.nytimes.com/2015/11/08/books/review/rick-riordans-magnus-chase-and-the-gods-of-asgard.html",
+"title": "THE SWORD OF SUMMER",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 55,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781484719329?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781484719329"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Magnus-Chase-Gods-Asgard-Book-ebook/dp/B00O87NWBK?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Finisher-Content-E-book-Edition-ebook/dp/B00EOALKXS?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "David Baldacci",
+"book_image": "https://s1.nyt.com/du/books/images/9780545652360.jpg",
+"book_image_width": 128,
+"book_image_height": 183,
+"book_review_link": "",
+"contributor": "by David Baldacci",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Vega Jane looks into a friend's mysterious disappearance.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "9780545652360",
+"publisher": "Scholastic",
+"rank": 5,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "THE FINISHER",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 18,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545652360?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545652360"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Finisher-Content-E-book-Edition-ebook/dp/B00EOALKXS?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 13,
+"list_name": "Childrens Middle Grade Hardcover",
+"list_name_encoded": "childrens-middle-grade-hardcover",
+"display_name": "Children’s Middle Grade Hardcover",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780545935203.jpg",
+"list_image_width": 338,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Dog-Man-Unleashed-Creator-Underpants/dp/0545935202?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Dav Pilkey",
+"book_image": "https://s1.nyt.com/du/books/images/9780545935203.jpg",
+"book_image_width": 338,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Dav Pilkey",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "Only one hybrid hero can foil the criminally minded, again.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0545935202",
+"primary_isbn13": "9780545935203",
+"publisher": "Scholastic",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "DOG MAN UNLEASHED",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 5,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545935203?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545935203"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Dog-Man-Unleashed-Creator-Underpants/dp/0545935202?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "R J Palacio",
+"book_image": "https://s1.nyt.com/du/books/images/9780375899881.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by R. J. Palacio",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "A boy with a facial deformity starts school.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0375869026",
+"primary_isbn13": "9780375869020",
+"publisher": "Knopf",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "https://www.nytimes.com/2012/04/08/books/review/wonder-by-r-j-palacio.html",
+"title": "WONDER",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 77,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780375869020?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780375869020"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/I-Got-This-Gold-Beyond/dp/0062677314?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Laurie Hernandez",
+"book_image": "https://s1.nyt.com/du/books/images/9780062677310.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Laurie Hernandez",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "How a young woman from New Jersey achieved Olympic gymnastic gold.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062677314",
+"primary_isbn13": "9780062677310",
+"publisher": "HarperCollins",
+"rank": 3,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "I GOT THIS",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062677310?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062677310"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/I-Got-This-Gold-Beyond/dp/0062677314?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Girl-Who-Drank-Moon/dp/1616205679?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Kelly Barnhill",
+"book_image": "https://s1.nyt.com/du/books/images/9781616205676.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/10/09/books/review/girl-who-drank-the-moon-kelly-barnhill.html",
+"contributor": "by Kelly Barnhill",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "A sacrificial girl is saved by a good witch.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1616205679",
+"primary_isbn13": "9781616205676",
+"publisher": "Algonquin",
+"rank": 4,
+"rank_last_week": 8,
+"sunday_review_link": "",
+"title": "THE GIRL WHO DRANK THE MOON",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 4,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781616205676?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781616205676"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Girl-Who-Drank-Moon/dp/1616205679?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dog-Man-Creator-Captain-Underpants-ebook/dp/B01B3DBA4C?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Dav Pilkey",
+"book_image": "https://s1.nyt.com/du/books/images/9780545581639.jpg",
+"book_image_width": 339,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Dav Pilkey",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "A hybrid supercop hound helps save the day.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0545581605",
+"primary_isbn13": "9780545581608",
+"publisher": "Scholastic",
+"rank": 5,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "DOG MAN",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 22,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545581608?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545581608"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dog-Man-Creator-Captain-Underpants-ebook/dp/B01B3DBA4C?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 15,
+"list_name": "Childrens Middle Grade Paperback",
+"list_name_encoded": "childrens-middle-grade-paperback",
+"display_name": "Children’s Middle Grade Paperback",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062662378.jpg",
+"list_image_width": 336,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Hidden-Figures-Readers-Margot-Shetterly/dp/0062662376?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margot Lee Shetterly",
+"book_image": "https://s1.nyt.com/du/books/images/9780062662378.jpg",
+"book_image_width": 336,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margot Lee Shetterly",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062662376",
+"primary_isbn13": "9780062662378",
+"publisher": "HarperCollins",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "HIDDEN FIGURES",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 6,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062662378?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062662378"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Hidden-Figures-Readers-Margot-Shetterly/dp/0062662376?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Long-Walk-Water-Based-Story/dp/0547577311?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Linda Sue Park",
+"book_image": "https://s1.nyt.com/du/books/images/9780547577319.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Linda Sue Park",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "A Sudanese tale of survival.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0547577311",
+"primary_isbn13": "9780547577319",
+"publisher": "Houghton Mifflin Harcourt",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "A LONG WALK TO WATER",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 75,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780547577319?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780547577319"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Long-Walk-Water-Based-Story/dp/0547577311?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Only-Ivan-Katherine-Applegate/dp/0061992275?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Katherine Applegate",
+"book_image": "https://s1.nyt.com/du/books/images/9780061992278.jpg",
+"book_image_width": 354,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Katherine Applegate. Illustrated by Patricia Castelao",
+"contributor_note": "Illustrated by Patricia Castelao",
+"created_date": "2017-01-19 17:00:07",
+"description": "A gorilla living in a mall meets an elephant.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0061992275",
+"primary_isbn13": "9780061992278",
+"publisher": "HarperCollins",
+"rank": 3,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "THE ONE AND ONLY IVAN",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 75,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780061992278?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780061992278"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Only-Ivan-Katherine-Applegate/dp/0061992275?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Story-Thieves-James-Riley/dp/1481409204?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "James Riley",
+"book_image": "https://s1.nyt.com/du/books/images/9781481409209.jpg",
+"book_image_width": 336,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by James Riley",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1481409204",
+"primary_isbn13": "9781481409209",
+"publisher": "Aladdin",
+"rank": 4,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "STORY THIEVES",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 23,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781481409209?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781481409209"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Story-Thieves-James-Riley/dp/1481409204?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Percy-Jacksons-Greek-Gods-Riordan/dp/1423183649?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rick Riordan",
+"book_image": "https://s1.nyt.com/du/books/images/9781423183648.jpg",
+"book_image_width": 128,
+"book_image_height": 171,
+"book_review_link": "",
+"contributor": "by Rick Riordan. Illustrated by John Rocco",
+"contributor_note": "Illustrated by John Rocco ",
+"created_date": "2017-01-19 17:00:07",
+"description": "Percy Jackson offers a personal tour of the pantheon.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1484712374",
+"primary_isbn13": "9781484712375",
+"publisher": "Disney-Hyperion",
+"rank": 5,
+"rank_last_week": 6,
+"sunday_review_link": "",
+"title": "PERCY JACKSON'S GREEK GODS",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 26,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781484712375?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781484712375"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Percy-Jacksons-Greek-Gods-Riordan/dp/1423183649?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 7,
+"list_name": "Picture Books",
+"list_name_encoded": "picture-books",
+"display_name": "Children’s Picture Books",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780448489322.jpg",
+"list_image_width": 409,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Love-The-Very-Hungry-Caterpillar/dp/0448489325?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Eric Carle",
+"book_image": "https://s1.nyt.com/du/books/images/9780448489322.jpg",
+"book_image_width": 409,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Eric Carle",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "A ravenous insect returns with its appetite intact.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0448489325",
+"primary_isbn13": "9780448489322",
+"publisher": "Grosset & Dunlap",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "LOVE FROM THE VERY HUNGRY CATERPILLAR",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 9,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780448489322?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780448489322"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Love-The-Very-Hungry-Caterpillar/dp/0448489325?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Dissent-Ruth-Bader-Ginsburg-Makes/dp/1481465597?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Debbie Levy",
+"book_image": "https://s1.nyt.com/du/books/images/9781481465595.jpg",
+"book_image_width": 386,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Debbie Levy. Illustrated by Elizabeth Baddeley",
+"contributor_note": "Illustrated by Elizabeth Baddeley",
+"created_date": "2017-02-02 17:00:08",
+"description": "A groundbreaking jurist argues her way up the legal ladder.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1481465597",
+"primary_isbn13": "9781481465595",
+"publisher": "Simon & Schuster",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "I DISSENT",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781481465595?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781481465595"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Dissent-Ruth-Bader-Ginsburg-Makes/dp/1481465597?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Ada-Twist-Scientist-Andrea-Beaty/dp/1419721372?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Andrea Beaty",
+"book_image": "https://s1.nyt.com/du/books/images/9781419721373.jpg",
+"book_image_width": 408,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Andrea Beaty. Illustrated by David Roberts",
+"contributor_note": "Illustrated by David Roberts",
+"created_date": "2017-02-02 17:00:08",
+"description": "A girl emerges with a love of science.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1419721372",
+"primary_isbn13": "9781419721373",
+"publisher": "Abrams",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "ADA TWIST, SCIENTIST",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 21,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781419721373?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781419721373"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Ada-Twist-Scientist-Andrea-Beaty/dp/1419721372?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Wonderful-Things-You-Will/dp/0385376715?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Emily Winfield Martin",
+"book_image": "https://s1.nyt.com/du/books/images/9780385376716.jpg",
+"book_image_width": 475,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Emily Winfield Martin",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:08",
+"description": "A celebration of future possibilities.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0385376715",
+"primary_isbn13": "9780385376716",
+"publisher": "Random House",
+"rank": 4,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "THE WONDERFUL THINGS YOU WILL BE",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 70,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780385376716?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385376716"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Wonderful-Things-You-Will/dp/0385376715?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dragons-Love-Tacos-Adam-Rubin/dp/0803736800?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Adam Rubin",
+"book_image": "https://s1.nyt.com/du/books/images/9780803736801.jpg",
+"book_image_width": 500,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Adam Rubin. Illustrated by Daniel Salmieri",
+"contributor_note": "Illustrated by Daniel Salmieri",
+"created_date": "2017-02-02 17:00:08",
+"description": "What to serve your dragon-guests.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0803736800",
+"primary_isbn13": "9780803736801",
+"publisher": "Dial",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "DRAGONS LOVE TACOS",
+"updated_date": "2017-02-02 17:00:08",
+"weeks_on_list": 154,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780803736801?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780803736801"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dragons-Love-Tacos-Adam-Rubin/dp/0803736800?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 10,
+"list_name": "Series Books",
+"list_name_encoded": "series-books",
+"display_name": "Children’s Series",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780590353427.jpg",
+"list_image_width": 331,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Harry-Potter-And-Order-Phoenix/dp/0439358078?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "J K Rowling",
+"book_image": "https://s1.nyt.com/du/books/images/9780590353427.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by J. K. Rowling",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "A wizard hones his conjuring skills in the service of fighting evil.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1338099132",
+"primary_isbn13": "9781338099133",
+"publisher": "Scholastic",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "HARRY POTTER",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 410,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781338099133?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781338099133"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Harry-Potter-And-Order-Phoenix/dp/0439358078?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Jeff Kinney",
+"book_image": "https://s1.nyt.com/du/books/images/9781419711329.jpg",
+"book_image_width": 341,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "written and illustrated by Jeff Kinney",
+"contributor_note": "written and illustrated by Jeff Kinney",
+"created_date": "2017-02-02 17:00:05",
+"description": "The travails and challenges of adolescence.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1419723448",
+"primary_isbn13": "9781419723445",
+"publisher": "Amulet",
+"rank": 2,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "DIARY OF A WIMPY KID",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 411,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781419723445?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781419723445"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Library-Souls-Peregrines-Peculiar-Children/dp/159474758X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Ransom Riggs",
+"book_image": "https://s1.nyt.com/du/books/images/9781594747588.jpg",
+"book_image_width": 160,
+"book_image_height": 248,
+"book_review_link": "",
+"contributor": "by Ransom Riggs",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "Time travelers try to save their headmistress.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1594746036",
+"primary_isbn13": "9781594746031",
+"publisher": "Quirk/Penguin",
+"rank": 3,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "MISS PEREGRINE’S PECULIAR CHILDREN",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 71,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781594746031?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781594746031"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Library-Souls-Peregrines-Peculiar-Children/dp/159474758X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Dork-Diaries-Tales-Not-So-Glam-Star/dp/1442487674?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Rachel Renée Russell",
+"book_image": "https://s1.nyt.com/du/books/images/9781442487673.jpg",
+"book_image_width": 344,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Rachel Renée Russell",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "Nikki Maxwell navigates the halls of middle school.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1481479202",
+"primary_isbn13": "9781481479202",
+"publisher": "Simon & Schuster",
+"rank": 4,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "DORK DIARIES",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 192,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781481479202?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781481479202"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Dork-Diaries-Tales-Not-So-Glam-Star/dp/1442487674?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Series-Unfortunate-Events-The-Beginning-ebook/dp/B000VYX8PE?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Lemony Snicket",
+"book_image": "https://s1.nyt.com/du/books/images/9780061757099.jpg",
+"book_image_width": 375,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Lemony Snicket",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:05",
+"description": "The three Baudelaire siblings find misfortune everywhere they turn.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0064407667",
+"primary_isbn13": "9780064407663",
+"publisher": "HarperCollins Publishers",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "A SERIES OF UNFORTUNATE EVENTS",
+"updated_date": "2017-02-02 17:00:05",
+"weeks_on_list": 142,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780064407663?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780064407663"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Series-Unfortunate-Events-The-Beginning-ebook/dp/B000VYX8PE?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 214,
+"list_name": "Young Adult E-Book",
+"list_name_encoded": "young-adult-e-book",
+"display_name": "Young Adult E-Book",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062412386.jpg",
+"list_image_width": 329,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Burning-Glass-Kathryn-Purdie-ebook/dp/B00Z751BSS?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Kathryn Purdie",
+"book_image": "https://s1.nyt.com/du/books/images/9780062412386.jpg",
+"book_image_width": 329,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Kathryn Purdie",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062412388",
+"primary_isbn13": "9780062412386",
+"publisher": "Katherine Tegen",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "BURNING GLASS",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062412386?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062412386"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Burning-Glass-Kathryn-Purdie-ebook/dp/B00Z751BSS?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Flamecaster-Shattered-Realms-Cinda-Williams-ebook/dp/B00Z74LXK0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Cinda Williams Chima",
+"book_image": "https://s1.nyt.com/du/books/images/9780062380968.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Cinda Williams Chima",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "A return to the Seven Realms, where guilt-plagued Ash meets his match in the fierce Jenna.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062380966",
+"primary_isbn13": "9780062380968",
+"publisher": "HarperTeen",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "FLAMECASTER",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062380968?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062380968"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Flamecaster-Shattered-Realms-Cinda-Williams-ebook/dp/B00Z74LXK0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Mistrust-Margaret-McHeyzer-ebook/dp/B01IQN1S1C?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margaret McHeyzer",
+"book_image": "https://s1.nyt.com/du/books/images/9780994354792.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margaret McHeyzer",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "None",
+"primary_isbn13": "9780994354792",
+"publisher": "Margaret McHeyzer",
+"rank": 3,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "MISTRUST",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780994354792?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780994354792"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Mistrust-Margaret-McHeyzer-ebook/dp/B01IQN1S1C?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/I-Darken-Kiersten-White/dp/0553522310?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Kiersten White",
+"book_image": "https://s1.nyt.com/du/books/images/9780553522310.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Kiersten White",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "Vlad the Impaler is recast as a young woman held hostage by an Ottoman sultan.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0553522337",
+"primary_isbn13": "9780553522334",
+"publisher": "Delacorte",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "AND I DARKEN",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780553522334?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780553522334"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/I-Darken-Kiersten-White/dp/0553522310?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Windwitch-Witchlands-Novel-Susan-Dennard-ebook/dp/B01F20E8OG?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Susan Dennard",
+"book_image": "https://s1.nyt.com/du/books/images/9781466867338.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Susan Dennard",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "As Prince Merik defends the downtrodden, tenuous allies set off across Witchlands in search of Safi.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1466867337",
+"primary_isbn13": "9781466867338",
+"publisher": "Tor Teen",
+"rank": 5,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "WINDWITCH",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781466867338?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781466867338"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Windwitch-Witchlands-Novel-Susan-Dennard-ebook/dp/B01F20E8OG?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 14,
+"list_name": "Young Adult Hardcover",
+"list_name_encoded": "young-adult-hardcover",
+"display_name": "Young Adult Hardcover",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062348630.jpg",
+"list_image_width": 331,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Carve-Mark-Veronica-Roth/dp/0062348639?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Veronica Roth",
+"book_image": "https://s1.nyt.com/du/books/images/9780062348630.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Veronica Roth",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "An oracle's son is able to stop the painful flow of Cyra's powers.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062348639",
+"primary_isbn13": "9780062348630",
+"publisher": "Katherine Tegen",
+"rank": 1,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "CARVE THE MARK",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062348630?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062348630"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Carve-Mark-Veronica-Roth/dp/0062348639?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/You-Ive-Never-Known/dp/1481442902?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Ellen Hopkins",
+"book_image": "https://s1.nyt.com/du/books/images/9781481442909.jpg",
+"book_image_width": 330,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Ellen Hopkins",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "When Ariel's estranged mother appears, a new version of the family story emerges.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1481442902",
+"primary_isbn13": "9781481442909",
+"publisher": "Margaret K. McElderry",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE YOU I'VE NEVER KNOWN",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781481442909?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781481442909"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/You-Ive-Never-Known/dp/1481442902?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Courage-Soar-Body-Motion-Balance/dp/0310759668?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Simone Biles with Michelle Burford",
+"book_image": "https://s1.nyt.com/du/books/images/9780310759669.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Simone Biles with Michelle Burford",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "The life of the gold-medal-studded Olympic gymnast.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0310759668",
+"primary_isbn13": "9780310759669",
+"publisher": "Zondervan",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "COURAGE TO SOAR",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 11,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780310759669?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780310759669"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Courage-Soar-Body-Motion-Balance/dp/0310759668?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Heartless-Marissa-Meyer-ebook/dp/B00XHJM7R0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Marissa Meyer",
+"book_image": "https://s1.nyt.com/du/books/images/9781250080271.jpg",
+"book_image_width": 320,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Marissa Meyer",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "Cath is a baker in love with a jester, before she becomes Wonderland's hectoring Queen of Hearts.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1250044650",
+"primary_isbn13": "9781250044655",
+"publisher": "Feiwel & Friends",
+"rank": 4,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "HEARTLESS",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 12,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781250044655?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250044655"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Heartless-Marissa-Meyer-ebook/dp/B00XHJM7R0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Sun-Also-Star-Nicola-Yoon/dp/0553496689?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Nicola Yoon",
+"book_image": "https://s1.nyt.com/du/books/images/9780553496680.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Nicola Yoon",
+"contributor_note": "",
+"created_date": "2017-02-02 17:00:06",
+"description": "The story of a girl, a boy, budding love and the universe.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0553496689",
+"primary_isbn13": "9780553496680",
+"publisher": "Delacorte",
+"rank": 5,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "THE SUN IS ALSO A STAR",
+"updated_date": "2017-02-02 17:00:06",
+"weeks_on_list": 13,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780553496680?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780553496680"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Sun-Also-Star-Nicola-Yoon/dp/0553496689?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 16,
+"list_name": "Young Adult Paperback",
+"list_name_encoded": "young-adult-paperback",
+"display_name": "Young Adult Paperback",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780375842207.jpg",
+"list_image_width": 324,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Book-Thief-Markus-Zusak/dp/0375842209?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Markus Zusak",
+"book_image": "https://s1.nyt.com/du/books/images/9780375842207.jpg",
+"book_image_width": 324,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2006/03/27/books/27masl.html",
+"contributor": "by Markus Zusak",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "A girl copes with life under the Nazis by stealing books.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0375842209",
+"primary_isbn13": "9780375842207",
+"publisher": "Knopf",
+"rank": 1,
+"rank_last_week": 3,
+"sunday_review_link": "https://www.nytimes.com/2006/05/14/books/review/14greenj.html",
+"title": "THE BOOK THIEF",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 75,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780375842207?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780375842207"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Book-Thief-Markus-Zusak/dp/0375842209?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Monster-Calls-Tie-Inspired-Siobhan/dp/0763692158?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Patrick Ness",
+"book_image": "https://s1.nyt.com/du/books/images/9780763692155.jpg",
+"book_image_width": 323,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Patrick Ness. Illustrated by Jim Kay",
+"contributor_note": "Illustrated by Jim Kay",
+"created_date": "2017-01-19 17:00:07",
+"description": null,
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0763660655",
+"primary_isbn13": "9780763660659",
+"publisher": "Candlewick",
+"rank": 2,
+"rank_last_week": 1,
+"sunday_review_link": "https://www.nytimes.com/2011/10/16/books/review/it-takes-a-monster-to-learn-how-to-grieve.html",
+"title": "A MONSTER CALLS",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 23,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780763660659?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780763660659"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Monster-Calls-Tie-Inspired-Siobhan/dp/0763692158?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Thirteen-Reasons-Why-Jay-Asher/dp/159514188X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Jay Asher",
+"book_image": "https://s1.nyt.com/du/books/images/9781595141880.jpg",
+"book_image_width": 185,
+"book_image_height": 278,
+"book_review_link": "",
+"contributor": "by Jay Asher",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "Before she commits suicide, a girl sends recordings to 13 people.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "159514188X",
+"primary_isbn13": "9781595141880",
+"publisher": "Razorbill",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THIRTEEN REASONS WHY",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 24,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781595141880?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781595141880"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Thirteen-Reasons-Why-Jay-Asher/dp/159514188X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Sherman Alexie and Ellen Forney",
+"book_image": "https://s1.nyt.com/du/books/images/9780316013697.jpg",
+"book_image_width": 325,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Sherman Alexie and Ellen Forney",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "A boy leaves his reservation to attend an all-white school.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0316013692",
+"primary_isbn13": "9780316013697",
+"publisher": "Little, Brown",
+"rank": 4,
+"rank_last_week": 6,
+"sunday_review_link": "https://www.nytimes.com/2007/11/11/books/review/Barcott3-t.html",
+"title": "THE ABSOLUTELY TRUE DIARY OF A PART-TIME INDIAN",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 62,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780316013697?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316013697"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Red-Queen-Victoria-Aveyard/dp/0062310631?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Victoria Aveyard",
+"book_image": "https://s1.nyt.com/du/books/images/9780062310637.jpg",
+"book_image_width": 128,
+"book_image_height": 196,
+"book_review_link": "",
+"contributor": "by Victoria Aveyard",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:07",
+"description": "A girl with a special power lives in a kingdom divided between an underclass with red blood and an elite with silver.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "006231064X",
+"primary_isbn13": "9780062310644",
+"publisher": "HarperTeen",
+"rank": 5,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "RED QUEEN",
+"updated_date": "2017-01-19 17:00:07",
+"weeks_on_list": 32,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062310644?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062310644"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Red-Queen-Victoria-Aveyard/dp/0062310631?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 20,
+"list_name": "Hardcover Graphic Books",
+"list_name_encoded": "hardcover-graphic-books",
+"display_name": "Hardcover Graphic Books",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781419709470.jpg",
+"list_image_width": 357,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Kindred-Graphic-Adaptation-Damian-Duffy/dp/141970947X?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Octavia E Butler, Damian Duffy and John Jennings",
+"book_image": "https://s1.nyt.com/du/books/images/9781419709470.jpg",
+"book_image_width": 357,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Octavia E. Butler, Damian Duffy and John Jennings",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "A woman travels through time — from the 1970s to the pre-Civil War era — in this adaptation of Butler’s 1979 novel.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "141970947X",
+"primary_isbn13": "9781419709470",
+"publisher": "Abrams",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "KINDRED",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781419709470?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781419709470"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Kindred-Graphic-Adaptation-Damian-Duffy/dp/141970947X?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/DanTDM-Trayaurus-Enchanted-Crystal/dp/0062574329?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Dan Middleton, Doreen Mulryan and Mike Love",
+"book_image": "https://s1.nyt.com/du/books/images/9780062574329.jpg",
+"book_image_width": 384,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Dan Middleton, Doreen Mulryan and Mike Love",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "Dr. Trayaurus and Dan must prevent five powerful crystals from falling into the hands of their arch–nemesis, Denton.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062574329",
+"primary_isbn13": "9780062574329",
+"publisher": "HarperCollins",
+"rank": 2,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "DANTDM: TRAYAURUS AND THE ENCHANTED CRYSTAL",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 12,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062574329?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062574329"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/DanTDM-Trayaurus-Enchanted-Crystal/dp/0062574329?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Batman-Killing-Joke-Deluxe-Edition/dp/1401216676?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Alan Moore and Brian Bolland",
+"book_image": "https://s1.nyt.com/du/books/images/9781401216672.jpg",
+"book_image_width": 327,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Alan Moore and Brian Bolland",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "This critically acclaimed story from 1988 offers a possible origin for the Joker.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1401216676",
+"primary_isbn13": "9781401216672",
+"publisher": "DC Comics",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "BATMAN: THE KILLING JOKE",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 239,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781401216672?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781401216672"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Batman-Killing-Joke-Deluxe-Edition/dp/1401216676?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Snow-White-Graphic-Matt-Phelan/dp/0763672335?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Matt Phelan",
+"book_image": "https://s1.nyt.com/du/books/images/9780763672331.jpg",
+"book_image_width": 404,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Matt Phelan",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:10",
+"description": "The story of Snow White is reimagined here as a noir tale set in Manhattan during the Great Depression.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0763672335",
+"primary_isbn13": "9780763672331",
+"publisher": "Candlewick",
+"rank": 4,
+"rank_last_week": 5,
+"sunday_review_link": "",
+"title": "SNOW WHITE",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 12,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780763672331?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780763672331"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Snow-White-Graphic-Matt-Phelan/dp/0763672335?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Best-American-Comics-2016/dp/0544750357?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "edited  Roz Chast and Bill Kartalopoulos",
+"book_image": "https://s1.nyt.com/du/books/images/9780544750357.jpg",
+"book_image_width": 389,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "edited by Roz Chast and Bill Kartalopoulos",
+"contributor_note": "edited by Roz Chast and Bill Kartalopoulos",
+"created_date": "2017-01-19 17:00:10",
+"description": "This collection features contributions from Chris Ware, Cece Bell and others.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0544750357",
+"primary_isbn13": "9780544750357",
+"publisher": "Houghton Mifflin Harcourt",
+"rank": 5,
+"rank_last_week": 4,
+"sunday_review_link": "",
+"title": "THE BEST AMERICAN COMICS 2016",
+"updated_date": "2017-01-19 17:00:10",
+"weeks_on_list": 15,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780544750357?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780544750357"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Best-American-Comics-2016/dp/0544750357?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 21,
+"list_name": "Paperback Graphic Books",
+"list_name_encoded": "paperback-graphic-books",
+"display_name": "Paperback Graphic Books",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780545540629.jpg",
+"list_image_width": 353,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Ghosts-Raina-Telgemeier/dp/0545540623?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Raina Telgemeier",
+"book_image": "https://s1.nyt.com/du/books/images/9780545540629.jpg",
+"book_image_width": 353,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/08/28/books/review/raina-telgemeier-ghosts.html",
+"contributor": "by Raina Telgemeier",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Two sisters discover that their quiet coastal town is haunted by ghosts, but are they something to fear, or embrace?",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0545540623",
+"primary_isbn13": "9780545540629",
+"publisher": "Scholastic",
+"rank": 1,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "GHOSTS",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 18,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545540629?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545540629"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Ghosts-Raina-Telgemeier/dp/0545540623?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Drama-Raina-Telgemeier/dp/0545326990?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Raina Telgemeier",
+"book_image": "https://s1.nyt.com/du/books/images/9780545326995.jpg",
+"book_image_width": 186,
+"book_image_height": 271,
+"book_review_link": "",
+"contributor": "by Raina Telgemeier",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Callie becomes the stage manager for her middle school’s production of \"Moon Over Mississippi.\"",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0545326990",
+"primary_isbn13": "9780545326995",
+"publisher": "Scholastic",
+"rank": 2,
+"rank_last_week": 3,
+"sunday_review_link": "https://www.nytimes.com/2012/08/26/books/review/drama-by-raina-telgemeier.html",
+"title": "DRAMA",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 179,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545326995?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545326995"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Drama-Raina-Telgemeier/dp/0545326990?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Smile-Raina-Telgemeier/dp/0545132061?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Raina Telgemeier",
+"book_image": "https://s1.nyt.com/du/books/images/9780545132060.jpg",
+"book_image_width": 180,
+"book_image_height": 252,
+"book_review_link": "",
+"contributor": "by Raina Telgemeier",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Raina experiences braces, boy troubles and other plagues of the sixth grade.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0545132061",
+"primary_isbn13": "9780545132060",
+"publisher": "Scholastic",
+"rank": 3,
+"rank_last_week": 4,
+"sunday_review_link": "https://www.nytimes.com/2010/05/16/books/review/Bird-t.html",
+"title": "SMILE",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 240,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780545132060?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780545132060"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Smile-Raina-Telgemeier/dp/0545132061?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/March-Book-One-John-Lewis/dp/1603093001?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "John Lewis, Andrew Aydin and Nate Powell",
+"book_image": "https://s1.nyt.com/du/books/images/9781603093002.jpg",
+"book_image_width": 342,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by John Lewis, Andrew Aydin and Nate Powell",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "Representative John Lewis describes his childhood and the beginning of his involvement in the civil rights movement. The first volume of a trilogy.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1603093001",
+"primary_isbn13": "9781603093002",
+"publisher": "Top Shelf Productions",
+"rank": 4,
+"rank_last_week": 9,
+"sunday_review_link": "",
+"title": "MARCH: BOOK 1",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 66,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781603093002?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781603093002"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/March-Book-One-John-Lewis/dp/1603093001?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Love-Various/dp/1631409395?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "various",
+"book_image": "https://s1.nyt.com/du/books/images/9781631409394.jpg",
+"book_image_width": 326,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by various",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:11",
+"description": "This book features more than 100 short stories with the proceeds going to Equality Florida and its fund for those affected by the attack at the Pulse nightclub last year in Florida.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1631409395",
+"primary_isbn13": "9781631409394",
+"publisher": "IDW Publishing",
+"rank": 5,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "LOVE IS LOVE",
+"updated_date": "2017-01-19 17:00:11",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781631409394?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781631409394"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Love-Various/dp/1631409395?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 22,
+"list_name": "Manga",
+"list_name_encoded": "manga",
+"display_name": "Manga",
+"updated": "WEEKLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781421589602.jpg",
+"list_image_width": 349,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Legend-Zelda-Legendary-Oracle-Seasons/dp/1421589605?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Akira Himekawa",
+"book_image": "https://s1.nyt.com/du/books/images/9781421589602.jpg",
+"book_image_width": 349,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Akira Himekawa",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "The adaptation of several story arcs from Nintendo’s Zelda video game series continues. In this volume, the Oracle of Seasons.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1421589605",
+"primary_isbn13": "9781421589602",
+"publisher": "VIZ Media",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE LEGEND OF ZELDA: LEGENDARY EDITION, VOL. 2",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 1,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781421589602?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781421589602"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Legend-Zelda-Legendary-Oracle-Seasons/dp/1421589605?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/One-Punch-Man-Vol-10-ONE/dp/1421590158?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "ONE and Yusuke Murata",
+"book_image": "https://s1.nyt.com/du/books/images/9781421590158.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by ONE and Yusuke Murata",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "Saitama sneaks into a combat tournament in order to hone his martial arts skills.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1421590158",
+"primary_isbn13": "9781421590158",
+"publisher": "VIZ Media",
+"rank": 2,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "ONE-PUNCH MAN, VOL. 10",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781421590158?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781421590158"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/One-Punch-Man-Vol-10-ONE/dp/1421590158?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Ancient-Magus-Bride-Vol/dp/1626923507?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Kore Yamazaki",
+"book_image": "https://s1.nyt.com/du/books/images/9781626923508.jpg",
+"book_image_width": 351,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Kore Yamazaki",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "A girl is chosen to be the apprentice — and the bride — of a powerful wizard. In this volume, Chise makes a friend.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1626923507",
+"primary_isbn13": "9781626923508",
+"publisher": "Seven Seas Entertainment",
+"rank": 3,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "THE ANCIENT MAGUS' BRIDE, VOL. 6",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 2,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781626923508?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781626923508"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Ancient-Magus-Bride-Vol/dp/1626923507?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Tokyo-Ghoul-Vol-Sui-Ishida/dp/1421580365?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Sui Ishida",
+"book_image": "https://s1.nyt.com/du/books/images/9781421580364.jpg",
+"book_image_width": 348,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Sui Ishida",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "Ken Kaneki is attacked by a monster, but survives the encounter and becomes the first half-human, half-ghoul hybrid.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1421580365",
+"primary_isbn13": "9781421580364",
+"publisher": "VIZ Media",
+"rank": 4,
+"rank_last_week": 8,
+"sunday_review_link": "",
+"title": "TOKYO GHOUL, VOL. 1",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 80,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781421580364?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781421580364"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Tokyo-Ghoul-Vol-Sui-Ishida/dp/1421580365?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Legend-Zelda-Legendary-Ocarina-Parts/dp/1421589591?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Akira Himekawa",
+"book_image": "https://s1.nyt.com/du/books/images/9781421589596.jpg",
+"book_image_width": 349,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Akira Himekawa",
+"contributor_note": "",
+"created_date": "2017-01-19 17:00:12",
+"description": "The beginning of the adaptation to Nintendo’s 1998 video game, The Legend of Zelda: Ocarina of Time, is collected here.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1421589591",
+"primary_isbn13": "9781421589596",
+"publisher": "VIZ Media",
+"rank": 5,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "THE LEGEND OF ZELDA: LEGENDARY EDITION, VOL. 1",
+"updated_date": "2017-01-19 17:00:12",
+"weeks_on_list": 11,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781421589596?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781421589596"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Legend-Zelda-Legendary-Ocarina-Parts/dp/1421589591?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 532,
+"list_name": "Business Books",
+"list_name_encoded": "business-books",
+"display_name": "Business",
+"updated": "MONTHLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781328683786.jpg",
+"list_image_width": 389,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Tim Ferriss",
+"book_image": "https://s1.nyt.com/du/books/images/9781328683786.jpg",
+"book_image_width": 389,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Tim Ferriss",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The tactics, strategies and habits of billionaires, icons and world-class performers, by the technology investor and podcast host.†",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1328683788",
+"primary_isbn13": "9781328683786",
+"publisher": "Houghton Mifflin Harcourt",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "TOOLS OF TITANS",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781328683786?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781328683786"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Chip Gaines and Joanna Gaines with Mark Dagostino",
+"book_image": "https://s1.nyt.com/du/books/images/9780718081539.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Chip Gaines and Joanna Gaines with Mark Dagostino",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The couple who star in the HGTV show “Fixer Upper.”",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0718079183",
+"primary_isbn13": "9780718079185",
+"publisher": "W Publishing/Thomas Nelson",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE MAGNOLIA STORY",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780718079185?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780718079185"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Magnolia-Story-Bonus-Content-ebook/dp/B01CH2EW20?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Undoing-Project-Friendship-Changed-Minds-ebook/dp/B01GI6S7EK?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Michael Lewis",
+"book_image": "https://s1.nyt.com/du/books/images/9780393254600.jpg",
+"book_image_width": 326,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Michael Lewis",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "How the psychologists Daniel Kahneman and Amos Tversky upended assumptions about the decision-making process and invented the field of behavioral economics.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0393254593",
+"primary_isbn13": "9780393254594",
+"publisher": "Norton",
+"rank": 3,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE UNDOING PROJECT",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780393254594?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780393254594"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Undoing-Project-Friendship-Changed-Minds-ebook/dp/B01GI6S7EK?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Thank-You-Being-Late-Accelerations-ebook/dp/B01F1Z0QHA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Thomas L Friedman",
+"book_image": "https://s1.nyt.com/du/books/images/9780374715144.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2016/11/22/books/review/thomas-friedman-thank-you-for-being-late.html",
+"contributor": "by Thomas L. Friedman",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "How the globalization, climate change and the accelerating pace of technology are reshaping the world, and what we can do about it.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0374273537",
+"primary_isbn13": "9780374273538",
+"publisher": "Farrar, Straus & Giroux",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THANK YOU FOR BEING LATE",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780374273538?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780374273538"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Thank-You-Being-Late-Accelerations-ebook/dp/B01F1Z0QHA?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Daniel Kahneman",
+"book_image": "https://s1.nyt.com/du/books/images/9781429969352.jpg",
+"book_image_width": 337,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+"contributor": "by Daniel Kahneman",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The winner of the Nobel in economic science discusses how we make choices.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0374533555",
+"primary_isbn13": "9780374533557",
+"publisher": "Farrar, Straus & Giroux",
+"rank": 5,
+"rank_last_week": 0,
+"sunday_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+"title": "THINKING, FAST AND SLOW",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780374533557?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780374533557"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 531,
+"list_name": "Science",
+"list_name_encoded": "science",
+"display_name": "Science",
+"updated": "MONTHLY",
+"list_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"list_image_width": 334,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Margot Lee Shetterly",
+"book_image": "https://s1.nyt.com/du/books/images/9780062363619.jpg",
+"book_image_width": 334,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Margot Lee Shetterly",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:03",
+"description": "he story, based in part on interviews, of the black women mathematicians who were hired as “computers” by the precursor of NASA during World War II. The basis of the movie.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062363603",
+"primary_isbn13": "9780062363602",
+"publisher": "HarperCollins",
+"rank": 1,
+"rank_last_week": 3,
+"sunday_review_link": "",
+"title": "HIDDEN FIGURES",
+"updated_date": "2017-02-03 16:00:03",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062363602?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062363602"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Hidden-Figures-American-Untold-Mathematicians-ebook/dp/B0166JFFD0?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Lost-City-Monkey-God-Story-ebook/dp/B01G1K1RTA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Douglas Preston",
+"book_image": "https://s1.nyt.com/du/books/images/9781455540020.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Douglas Preston",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:03",
+"description": "A frightening search for a lost civilization in the Honduran rain forest.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1455540005",
+"primary_isbn13": "9781455540006",
+"publisher": "Grand Central",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE LOST CITY OF THE MONKEY GOD",
+"updated_date": "2017-02-03 16:00:03",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781455540006?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455540006"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Lost-City-Monkey-God-Story-ebook/dp/B01G1K1RTA?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Undoing-Project-Friendship-Changed-Minds-ebook/dp/B01GI6S7EK?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Michael Lewis",
+"book_image": "https://s1.nyt.com/du/books/images/9780393254600.jpg",
+"book_image_width": 326,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Michael Lewis",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:03",
+"description": "How the psychologists Daniel Kahneman and Amos Tversky upended assumptions about the decision-making process and invented the field of behavioral economics.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0393254593",
+"primary_isbn13": "9780393254594",
+"publisher": "Norton",
+"rank": 3,
+"rank_last_week": 1,
+"sunday_review_link": "",
+"title": "THE UNDOING PROJECT",
+"updated_date": "2017-02-03 16:00:03",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780393254594?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780393254594"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Undoing-Project-Friendship-Changed-Minds-ebook/dp/B01GI6S7EK?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi-ebook/dp/B00XSSYR50?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Paul Kalanithi",
+"book_image": "https://s1.nyt.com/du/books/images/9780812988413.jpg",
+"book_image_width": 338,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Paul Kalanithi",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:03",
+"description": "A memoir by a physician who received a diagnosis of Stage IV lung cancer at the age of 36.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "081298840X",
+"primary_isbn13": "9780812988406",
+"publisher": "Random House",
+"rank": 4,
+"rank_last_week": 2,
+"sunday_review_link": "",
+"title": "WHEN BREATH BECOMES AIR",
+"updated_date": "2017-02-03 16:00:03",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780812988406?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780812988406"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi-ebook/dp/B00XSSYR50?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Daniel Kahneman",
+"book_image": "https://s1.nyt.com/du/books/images/9781429969352.jpg",
+"book_image_width": 337,
+"book_image_height": 500,
+"book_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+"contributor": "by Daniel Kahneman",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:03",
+"description": "The winner of the Nobel in economic science discusses how we make choices.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0374533555",
+"primary_isbn13": "9780374533557",
+"publisher": "Farrar, Straus & Giroux",
+"rank": 5,
+"rank_last_week": 6,
+"sunday_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+"title": "THINKING, FAST AND SLOW",
+"updated_date": "2017-02-03 16:00:03",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780374533557?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780374533557"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20"
+}
+]
+}
+]
+},
+{
+"list_id": 538,
+"list_name": "Sports",
+"list_name_encoded": "sports",
+"display_name": "Sports and Fitness",
+"updated": "MONTHLY",
+"list_image": "https://s1.nyt.com/du/books/images/9781501135934.jpg",
+"list_image_width": 331,
+"list_image_height": 500,
+"books": [
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Phil Knight",
+"book_image": "https://s1.nyt.com/du/books/images/9781501135934.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Phil Knight",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "A memoir by the founder of Nike.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "1501135910",
+"primary_isbn13": "9781501135910",
+"publisher": "Scribner",
+"rank": 1,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "SHOE DOG",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9781501135910?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501135910"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Shaken-Discovering-Identity-Midst-Storms-ebook/dp/B01FPH0HPA?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Tim Tebow",
+"book_image": "https://s1.nyt.com/du/books/images/9780735289871.jpg",
+"book_image_width": 333,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Tim Tebow",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The Heisman Trophy winner writes about overcoming obstacles.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0735289867",
+"primary_isbn13": "9780735289864",
+"publisher": "Waterbrook",
+"rank": 2,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "SHAKEN",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780735289864?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735289864"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Shaken-Discovering-Identity-Midst-Storms-ebook/dp/B01FPH0HPA?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "http://www.amazon.com/The-Boys-Boat-Americans-Olympics-ebook/dp/B00AEBETU2?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Daniel James Brown",
+"book_image": "https://s1.nyt.com/du/books/images/9781101622742.jpg",
+"book_image_width": 326,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Daniel James Brown",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The story of the American rowers who pursued gold at the 1936 Berlin Olympic Games. Originally published in 2013.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0143125478",
+"primary_isbn13": "9780143125471",
+"publisher": "Penguin",
+"rank": 3,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "THE BOYS IN THE BOAT",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780143125471?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780143125471"
+},
+{
+"name": "Amazon",
+"url": "http://www.amazon.com/The-Boys-Boat-Americans-Olympics-ebook/dp/B00AEBETU2?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/Courage-Soar-Body-Motion-Balance/dp/0310759668?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Simone Biles with Michelle Burford",
+"book_image": "https://s1.nyt.com/du/books/images/9780310759669.jpg",
+"book_image_width": 331,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Simone Biles with Michelle Burford",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "The life of the gold-medal-studded Olympic gymnast.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0310759668",
+"primary_isbn13": "9780310759669",
+"publisher": "Zondervan",
+"rank": 4,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "COURAGE TO SOAR",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780310759669?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780310759669"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/Courage-Soar-Body-Motion-Balance/dp/0310759668?tag=thenewyorktim-20"
+}
+]
+},
+{
+"age_group": "",
+"amazon_product_url": "https://www.amazon.com/I-Got-This-Gold-Beyond/dp/0062677314?tag=thenewyorktim-20",
+"article_chapter_link": "",
+"author": "Laurie Hernandez",
+"book_image": "https://s1.nyt.com/du/books/images/9780062677310.jpg",
+"book_image_width": 332,
+"book_image_height": 500,
+"book_review_link": "",
+"contributor": "by Laurie Hernandez",
+"contributor_note": "",
+"created_date": "2017-02-03 16:00:04",
+"description": "How a young woman from New Jersey achieved Olympic gymnastic gold.",
+"first_chapter_link": "",
+"price": 0,
+"primary_isbn10": "0062677314",
+"primary_isbn13": "9780062677310",
+"publisher": "HarperCollins",
+"rank": 5,
+"rank_last_week": 0,
+"sunday_review_link": "",
+"title": "I GOT THIS",
+"updated_date": "2017-02-03 16:00:04",
+"weeks_on_list": 0,
+"buy_links": [
+{
+"name": "Local Booksellers",
+"url": "http://www.indiebound.org/book/9780062677310?aff=NYT"
+},
+{
+"name": "Barnes and Noble",
+"url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062677310"
+},
+{
+"name": "Amazon",
+"url": "https://www.amazon.com/I-Got-This-Gold-Beyond/dp/0062677314?tag=thenewyorktim-20"
+}
+]
+}
+]
+}
+]
+}
+}
