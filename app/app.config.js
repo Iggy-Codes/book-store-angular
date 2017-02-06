@@ -8,13 +8,12 @@ angular
 
 function routerConfig ($routeProvider) {
   $routeProvider
-    // .when('/home', {
-    //   templateURL: 'app/home/home.tpl.html' // ,
-    //   // controller: 'HomeController'
-    // })
-
+    .when('/home', {
+      templateUrl: 'app/home/home.tpl.html',
+      controller: 'HomeController'
+    })
     .when('/overview', {
-      templateURL: 'app/overview/overview.tpl.html',
+      templateUrl: 'app/overview/overview.tpl.html',
       controller: 'OverviewController'
     })
     .otherwise('/overview')

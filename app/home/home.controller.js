@@ -1,27 +1,18 @@
-console.log('home.controler.js')
 /* eslint no-undef: "off" */
 angular
   .module('bookStoreApp')
   .controller('HomeController', [
     '$scope',
-    // 'BookStoreService',
+    'BookStoreService',
     HomeController
   ])
 
-function HomeController ($scope) {
+function HomeController ($scope, BookStoreService) {
   console.log('HomeController')
   $scope.title = 'Home'
-  // var temporal = BookStoreService.get({
-  //   type: 'v3/lists/age-groups.json'
-  // })
-  // console.log(temporal)
+  // var temporal = BookStoreService.get()
+  var temporal = BookStoreService.get({
+    type: 'v3/lists/age-groups.json'
+  })
+  console.log(temporal)
 }
-
-// function HomeController ($scope, BookStoreService) {
-//   console.log('HomeController')
-//   $scope.title = 'Home'
-//   var temporal = BookStoreService.get({
-//     type: 'v3/lists/age-groups.json'
-//   })
-//   console.log(temporal)
-// }
