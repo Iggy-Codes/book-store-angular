@@ -16,5 +16,5 @@ function routerConfig ($routeProvider) {
       templateUrl: 'app/overview/overview.tpl.html',
       controller: 'OverviewController'
     })
-    .otherwise('/overview')
+    .otherwise('/home')
 }
