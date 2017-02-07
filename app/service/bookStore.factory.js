@@ -28,7 +28,8 @@
               'title': element.books[0].title,
               'author': element.books[0].author,
               'img': element.books[0].book_image,
-              'category': element.list_name
+              'category': element.list_name,
+              'isbn13': element.books[0].primary_isbn13
             }
           })
         })
