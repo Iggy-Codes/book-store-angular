@@ -1,2 +1,27 @@
 <h2>{{ title }}</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, similique labore unde tempore? Autem consequatur laudantium itaque. Repudiandae eius, nobis ipsa asperiores provident omnis voluptatem, vitae! Quae repellendus, quidem odit quos sit fugit laudantium nihil iure quis aliquam nostrum architecto accusamus commodi necessitatibus, repellat totam ipsam labore suscipit, consectetur optio.</p>
+<h3> {{titleOverview}} </h3>
+<ul ng-repeat="list in listsOverview">
+  <li>{{ list.list_id }} {{ list.list_name }}</li>
+</ul>
+
+<h3> {{ titleListName }} </h3>
+<ul ng-repeat="list in listsName">
+  <li>{{list.list_name}}</li>
+</ul>
+
+<h3> {{ titleExampleList }} </h3>
+<ul ng-repeat="book in booksList">
+  <li>{{book.title}} {{book.author}}</li>
+</ul>
+
+<h3> {{ titleBookISBN }} </h3>
+<ul ng-repeat="book in booksISBN">
+  <li>{{book.title}} {{book.author}}</li>
+</ul>
+
+<h3> {{ titleBookAuthor }} </h3>
+<ul ng-repeat="book in booksAuthor">
+  <li>{{book.title}} {{book.author}}</li>
+</ul>
+

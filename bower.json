@@ -1,0 +1,23 @@
+{
+  "name": "front-end-project-copy",
+  "homepage": "none",
+  "authors": [
+    "Iggy"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-resource": "^1.6.1"
+  }
+}
