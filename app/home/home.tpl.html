@@ -1,7 +1,19 @@
-<h2>{{ title }}</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, similique labore unde tempore? Autem consequatur laudantium itaque. Repudiandae eius, nobis ipsa asperiores provident omnis voluptatem, vitae! Quae repellendus, quidem odit quos sit fugit laudantium nihil iure quis aliquam nostrum architecto accusamus commodi necessitatibus, repellat totam ipsam labore suscipit, consectetur optio.</p>
-<h3> {{titleOverview}} </h3>
-<ul ng-repeat="book in vm.bookshome">
-  <li>{{ book.title }} {{ book.author }} {{ book.img }} {{ book.category }}</li>
-</ul>
-
+<<<<<<< HEAD
+<!--
+recibe un objeto vm con las siguientes propiedades
+title
+author
+img
+category
+ -->
+<div class="container">
+	<h1>load home template</h1>
+	<ul>
+    <li ng-repeat="book in vm.booksHome">
+			<a href="#/book"><img ng-src="{{ book.img }}"/></a>
+      <p><a href="#/book"></a>{{ book.title }}</p>
+      <p><a href="#/author"></a>{{ book.author }}</p>
+      <p><a href="#/category"></a>{{ book.category }}</p>
+    </li>
+  </ul>
+</div>
