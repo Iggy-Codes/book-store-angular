@@ -1,7 +1,31 @@
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss';
 
-$color: green;
+$color: black;
 
 body {
   color: $color;
+}
+
+.columns {
+  width: 500px;
+}
+
+footer {
+  background-color: #202d47;
+  padding: 30px;
+}
+
+footer .nav > li > a {
+  color: #737377;
+}
+
+footer .icons {
+  color: #FFF;
+  font-size: 30px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.copyright {
+  font-size: 10px;
 }
