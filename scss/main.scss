@@ -5,3 +5,12 @@ $color: green;
 body {
   color: $color;
 }
+
+.book_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.image_container {
+	width: 200px;
+}
