@@ -1,27 +1,32 @@
-<h2>{{ title }}</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, similique labore unde tempore? Autem consequatur laudantium itaque. Repudiandae eius, nobis ipsa asperiores provident omnis voluptatem, vitae! Quae repellendus, quidem odit quos sit fugit laudantium nihil iure quis aliquam nostrum architecto accusamus commodi necessitatibus, repellat totam ipsam labore suscipit, consectetur optio.</p>
-<h3> {{titleOverview}} </h3>
-<ul ng-repeat="list in listsOverview">
-  <li>{{ list.list_id }} {{ list.list_name }}</li>
-</ul>
+<!--
+recibe un objeto vm con las siguientes propiedades
+title
+author
+img
+category
+ -->
+<!-- <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="..." alt="...">
+    </a>
+  </div>
+  ...
+</div>
+ -->
 
-<h3> {{ titleListName }} </h3>
-<ul ng-repeat="list in listsName">
-  <li>{{list.list_name}}</li>
-</ul>
-
-<h3> {{ titleExampleList }} </h3>
-<ul ng-repeat="book in booksList">
-  <li>{{book.title}} {{book.author}}</li>
-</ul>
-
-<h3> {{ titleBookISBN }} </h3>
-<ul ng-repeat="book in booksISBN">
-  <li>{{book.title}} {{book.author}}</li>
-</ul>
-
-<h3> {{ titleBookAuthor }} </h3>
-<ul ng-repeat="book in booksAuthor">
-  <li>{{book.title}} {{book.author}}</li>
-</ul>
-
+<hr></hr>
+<div class="container">
+	<div class="row book_container">
+		<div ng-repeat="book in vm.booksHome">
+			<div class="thumbnail image_container">
+	    	<a href="#/book"><img ng-src="{{ book.img }}" class="img-responsive"/></a>
+		    <div class="caption">
+		      <h3><a href="#/book"><strong>{{ book.title }}</strong></a></h3>
+				  <h4><a href="#/author">{{ book.author }}</a></h4>
+				  <h5><a href="#/category">{{ book.category }}</a></h5>
+		  	</div>
+		  </div>
+	  </div>
+	</div>
+</div>

@@ -6,6 +6,7 @@ body {
   color: $color;
 }
 
+<<<<<<< HEAD
 .columns {
   width: 500px;
 }
@@ -29,3 +30,13 @@ footer .icons {
 .copyright {
   font-size: 10px;
 }
+=======
+.book_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.image_container {
+	width: 200px;
+}
+>>>>>>> 603c6e15b92eb22069032fe88b4e994c9ba8da4f
