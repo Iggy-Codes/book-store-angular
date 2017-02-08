@@ -1,6 +1,5 @@
 /* eslint no-undef: "off" */
 (function () {
-  console.log('bookStore.factory.js')
   angular
     .module('bookStoreApp')
     .factory('BookStoreFactory', [
@@ -84,9 +83,18 @@
           })
         })
     }
+    function getBooksDetails (isbnBook) {
+      var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?isbn=<%ISBN%>&api-key=' + apiKey
+      url = url.replace('<%ISBN%>', isbnBook)
+      return $http.get(url)
+      .then(function (response) {
+        return response.data.results[0]
+      })
+    }
     return {
       getHomeData: getHomeData,
-      getCategoryBooks: getCategoryBooks
+      getCategoryBooks: getCategoryBooks,
+      getBooksDetails: getBooksDetails
       // ,
       // getNameList: getNameList,
       // getBooksList: getBooksList,

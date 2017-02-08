@@ -24,7 +24,7 @@
         controller: 'AuthorController',
         controllerAs: 'vm'
       })
-      .when('/book', {
+      .when('/book/:isbnBook', {
         templateUrl: 'app/book/book.tpl.html',
         controller: 'BookController',
         controllerAs: 'vm'
