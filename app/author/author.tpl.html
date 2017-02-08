@@ -1,2 +1,22 @@
-<h2>{{ vm.title }}</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quis!</p>
+<!-- params that recived
+  'title': bookAuthor.title,
+  'isbn13': bookAuthor.isbns.isbn13
+  'description': bookAuthor.description,
+  'img': "https://s1.nyt.com/du/books/images/" + bookAuthor.isbns.isbn13 + ".jpg"
+  'category': bookAuthor.ranks_history.display_name, -->
+
+<hr></hr>
+<div class="container">
+	<div class="row author_container">
+		<div ng-repeat="book in vm.booksAuthor">
+			<div class="thumbnail image_container">
+	    	<a href="#/book"><img ng-src="{{ book.img }}" class="img-responsive"/></a>
+		    <div class="caption">
+		      <h3><a href="#/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
+		      <h6>{{ book.description }}</h6>
+				  <h4><a href="#/category/{{book.category_url}}">{{ book.category }}</a></h4>
+		  	</div>
+		  </div>
+	  </div>
+	</div>
+</div>
