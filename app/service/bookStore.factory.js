@@ -26,7 +26,8 @@
               'title': element.books[0].title,
               'author': element.books[0].author,
               'img': element.books[0].book_image,
-              'category': element.list_name,
+              'category': element.list_display_name,
+              'category_id': element.list_id,
               'isbn13': element.books[0].primary_isbn13
             }
           })
@@ -46,6 +47,22 @@
           console.log('Aleatory Books')
           console.log(aleatoryBooks)
           return aleatoryBooks
+        })
+    }
+    function getCategoryList () { // eslint-disable-line no-unused-vars
+      var url = 'https://api.nytimes.com/svc/books/v3/lists/overview?api-key=' + apiKey
+      console.log(url)
+      return $http.get(url)
+        .then(function (response) {
+          return response.data.results.lists.map(function (element) {
+            return {
+              'list_id': element.list_id,
+              'list_name': element.list_name,
+              'list_name_encoded': element.list_name_encoded,
+              'display_name': element.display_name,
+              'updated': element.updated
+            }
+          })
         })
     }
     function getCategoryBooks (categoryName) {
