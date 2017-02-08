@@ -1,30 +1,30 @@
-<!--
-recibe un objeto vm con las siguientes propiedades
-title
-author
-img
-category
- -->
-<!-- <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="..." alt="...">
-    </a>
+<!-- 
+<div class="container">
+  <div class="row book_container" style="border: 1px solid red">
+    <div ng-repeat="book in vm.booksHome" class="image_container" style="border: 1px solid green">
+      <p><a class="btn-category btn btn-info" role="button" href="#/category/{{book.category_url}}">{{ book.category }}</a></p>
+      <div class="thumbnail">
+        <a href="#/book"><img ng-src="{{ book.img }}" class="text-center image_book"/></a>
+        <div class="caption">
+          <h3><a href="#/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
+          <h4><a href="#/author/{{book.author_url}}">{{ book.author }}</a></h4>
+        </div>
+      </div>
+    </div>
   </div>
-  ...
 </div>
  -->
 
-<hr></hr>
 <div class="container">
+  <h1 class="text-center"> Welcome to our store </h1>
 	<div class="row book_container">
-		<div ng-repeat="book in vm.booksHome">
-			<div class="thumbnail image_container">
-	    	<a href="#/book"><img ng-src="{{ book.img }}" class="img-responsive"/></a>
-		    <div class="caption">
-		      <h3><a href="#/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
-				  <h4><a href="#/author/{{book.author_url}}">{{ book.author }}</a></h4>
-				  <h5><a href="#/category/{{book.category_url}}">{{ book.category }}</a></h5>
+		<div ng-repeat="book in vm.booksHome" class="image_container">
+			<p><a class="btn-category btn btn-info" role="button" href="#/category/{{book.category_url}}">{{ book.category }}</a></p>
+      <div class="thumbnail">
+        <div style="background-image: url({{ book.img }});" class="image_book"/></div >
+        <div class="caption">
+          <h3 class="text-center"><a href="#/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
+          <h5 class="text-center"><a href="#/author/{{book.author_url}}">{{ book.author }}</a></h5>
 		  	</div>
 		  </div>
 	  </div>
