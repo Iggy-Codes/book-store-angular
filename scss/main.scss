@@ -47,9 +47,25 @@ footer .icons {
 .book_container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-}
-.image_container {
-	width: 200px;
+	justify-content: center;
 }
 
+.image_container {
+	width: 250px;
+  margin: 0px 20px 20px;
+  // padding: 0px;
+}
+
+.image_book {
+  height: 280px;  
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+  margin: 0 auto;
+
+}
+
+.btn-category {
+  width: 100%;
+}
