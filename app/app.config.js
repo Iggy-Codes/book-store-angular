@@ -14,10 +14,21 @@
         controller: 'HomeController',
         controllerAs: 'vm'
       })
-      // .when('/overview', {
-      //   templateUrl: 'app/overview/overview.tpl.html',
-      //   controller: 'OverviewController'
-      // })
+      .when('/category', {
+        templateUrl: 'app/category/category.tpl.html',
+        controller: 'CategoryController',
+        controllerAs: 'vm'
+      })
+      .when('/author', {
+        templateUrl: 'app/author/author.tpl.html',
+        controller: 'AuthorController',
+        controllerAs: 'vm'
+      })
+      .when('/book', {
+        templateUrl: 'app/book/book.tpl.html',
+        controller: 'BookController',
+        controllerAs: 'vm'
+      })
       .otherwise('/home')
   }
 })()
