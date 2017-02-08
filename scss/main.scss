@@ -1,9 +1,23 @@
+$navbar-height: 60px;
+
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss';
 
-$color: black;
+header .navbar {
+  background-color: #FFF;
+}
 
-body {
-  color: $color;
+header .navbar-default .navbar-nav > li > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #2D2F30;
+}
+
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #fc1b2a;
+}
+
+#logo {
+  padding: 10px;
 }
 
 .columns {
