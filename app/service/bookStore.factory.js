@@ -83,7 +83,6 @@
           })
         })
     }
-<<<<<<< HEAD
     function getBooksDetails (isbnBook) {
       var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?isbn=<%ISBN%>&api-key=' + apiKey
       url = url.replace('<%ISBN%>', isbnBook)
@@ -91,12 +90,11 @@
       .then(function (response) {
         return response.data.results[0]
       })
-=======
-
+    }
     function getBooksByAuthor (authorName) {
-      //var authorName = "Diana Gabaldon"
-      authorName = authorName.replace(/ /g,"+")
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=' + apiKey + "&" + 'author=<%AUTHOR%>'
+      // var authorName = "Diana Gabaldon"
+      authorName = authorName.replace(/ /g, '+')
+      var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=' + apiKey + '&' + 'author=<%AUTHOR%>'
       url = url.replace('<%AUTHOR%>', authorName)
       return $http.get(url)
         .then(function (response) {
@@ -105,26 +103,22 @@
               title: bookAuthor.title,
               isbn13: bookAuthor.isbns[0].isbn13,
               description: bookAuthor.description,
-              img: "https://s1.nyt.com/du/books/images/" + bookAuthor.isbns[0].isbn13 + ".jpg",
+              img: 'https://s1.nyt.com/du/books/images/' + bookAuthor.isbns[0].isbn13 + '.jpg',
               category: bookAuthor.ranks_history.display_name
             }
           })
         })
->>>>>>> a81056c4886fe6164ca79802cd9c3a70ac0fc85f
     }
     return {
       getHomeData: getHomeData,
       getCategoryBooks: getCategoryBooks,
-<<<<<<< HEAD
-      getBooksDetails: getBooksDetails
-=======
-      getBooksByAuthor: getBooksByAuthor,
->>>>>>> a81056c4886fe6164ca79802cd9c3a70ac0fc85f
+      getBooksDetails: getBooksDetails,
+      getBooksByAuthor: getBooksByAuthor
       // ,
       // getNameList: getNameList,
       // getBooksList: getBooksList,
       // getBooksByISBN: getBooksByISBN,
-      
+
     }
   }
 })()
