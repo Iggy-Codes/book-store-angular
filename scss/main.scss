@@ -1,7 +1,42 @@
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss';
 
-$color: green;
+$color: black;
 
 body {
   color: $color;
 }
+
+<<<<<<< HEAD
+.columns {
+  width: 500px;
+}
+
+footer {
+  background-color: #202d47;
+  padding: 30px;
+}
+
+footer .nav > li > a {
+  color: #737377;
+}
+
+footer .icons {
+  color: #FFF;
+  font-size: 30px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.copyright {
+  font-size: 10px;
+}
+=======
+.book_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.image_container {
+	width: 200px;
+}
+>>>>>>> 603c6e15b92eb22069032fe88b4e994c9ba8da4f
