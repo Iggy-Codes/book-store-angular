@@ -24,6 +24,11 @@
         controller: 'AuthorController',
         controllerAs: 'vm'
       })
+      .when('/book', {
+        templateUrl: 'app/book/book.tpl.html',
+        controller: 'BookController',
+        controllerAs: 'vm'
+      })
       .otherwise('/home')
   }
 })()

@@ -25,9 +25,10 @@
             return {
               'title': element.books[0].title,
               'author': element.books[0].author,
+              'author_url': encodeURI(element.books[0].author),
               'img': element.books[0].book_image,
               'category': element.display_name,
-              'category_id': element.list_id,
+              'category_url': element.list_name_encoded,
               'isbn13': element.books[0].primary_isbn13
             }
           })
@@ -65,10 +66,9 @@
           })
         })
     }
-    function getCategoryBooks (categoryName) {
-      categoryName = 'Combined Print and E-Book Fiction'
+    function getCategoryBooks (categoryURL) {
+      categoryURL = 'combined-print-and-e-book-fiction'
       var url = 'https://api.nytimes.com/svc/books/v3/lists/current/<%CATEGORY-NAME%>.json?api-key=' + apiKey
-      var categoryURL = encodeURI(categoryName.replace(' ', '-').toLowerCase())
       url = url.replace('<%CATEGORY-NAME%>', categoryURL)
       return $http.get(url)
         .then(function (response) {
