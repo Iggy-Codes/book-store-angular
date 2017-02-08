@@ -17,12 +17,10 @@
   function BookStoreFactory ($http) {
     var apiKey = '0b43b9cd5a3c4f81b07b260f4fd8f888'
     function getHomeData () { // eslint-disable-line no-unused-vars
-      var url = 'https://api.nytimes.com//svc/books/v3/lists/overview?api-key=' + apiKey
+      var url = 'https://api.nytimes.com/svc/books/v3/lists/overview?api-key=' + apiKey
       console.log(url)
       return $http.get(url)
         .then(function (response) {
-          console.log('Factory 1')
-          console.log(response)
           return response.data.results.lists.map(function (element) {
             return {
               'title': element.books[0].title,
@@ -34,8 +32,6 @@
           })
         })
         .then(function (response) {
-          console.log('Factory 2')
-          console.log(response)
           var aleatoryNumbers = []
           var aleatoryBooks = []
           var numberAleatoryBooks = 8
@@ -52,8 +48,28 @@
           return aleatoryBooks
         })
     }
+    function getCategoryBooks (categoryName) {
+      categoryName = 'Combined Print and E-Book Fiction'
+      var url = 'https://api.nytimes.com/svc/books/v3/lists/current/<%CATEGORY-NAME%>.json?api-key=' + apiKey
+      var categoryURL = encodeURI(categoryName.replace(' ', '-').toLowerCase())
+      url = url.replace('<%CATEGORY-NAME%>', categoryURL)
+      return $http.get(url)
+        .then(function (response) {
+          return response.data.results.books.map(function (book) {
+            return {
+              'rank': book.rank,
+              'primary_isbn13': book.primary_isbn13,
+              'description': book.description,
+              'title': book.title,
+              'author': book.author,
+              'img': book.book_image
+            }
+          })
+        })
+    }
     return {
-      getHomeData: getHomeData
+      getHomeData: getHomeData,
+      getCategoryBooks: getCategoryBooks
       // ,
       // getNameList: getNameList,
       // getBooksList: getBooksList,

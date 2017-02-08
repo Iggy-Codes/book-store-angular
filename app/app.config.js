@@ -14,10 +14,11 @@
         controller: 'HomeController',
         controllerAs: 'vm'
       })
-      // .when('/overview', {
-      //   templateUrl: 'app/overview/overview.tpl.html',
-      //   controller: 'OverviewController'
-      // })
+      .when('/category', {
+        templateUrl: 'app/category/category.tpl.html',
+        controller: 'CategoryController',
+        controllerAs: 'vm'
+      })
       .otherwise('/home')
   }
 })()
