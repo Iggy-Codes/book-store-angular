@@ -26,7 +26,7 @@
               'title': element.books[0].title,
               'author': element.books[0].author,
               'img': element.books[0].book_image,
-              'category': element.list_display_name,
+              'category': element.display_name,
               'category_id': element.list_id,
               'isbn13': element.books[0].primary_isbn13
             }

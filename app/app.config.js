@@ -19,6 +19,11 @@
         controller: 'CategoryController',
         controllerAs: 'vm'
       })
+      .when('/author', {
+        templateUrl: 'app/author/author.tpl.html',
+        controller: 'AuthorController',
+        controllerAs: 'vm'
+      })
       .otherwise('/home')
   }
 })()

@@ -12,6 +12,7 @@
     BookStoreFactory.getHomeData()
     .then(function (response) {
       vm.booksHome = response
+      console.log('Home' + response)
     })
   }
 })()
