@@ -1,22 +1,35 @@
-<!-- params that recived
-  'title': bookAuthor.title,
-  'isbn13': bookAuthor.isbns.isbn13
-  'description': bookAuthor.description,
-  'img': "https://s1.nyt.com/du/books/images/" + bookAuthor.isbns.isbn13 + ".jpg"
-  'category': bookAuthor.ranks_history.display_name, -->
-
-<hr></hr>
-<div class="container">
-	<div class="row author_container">
-		<div ng-repeat="book in vm.booksAuthor">
-			<div class="thumbnail image_container">
-	    	<a href="#/book"><img ng-src="{{ book.img }}" class="img-responsive"/></a>
-		    <div class="caption">
-		      <h3><a href="#/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
-		      <h6>{{ book.description }}</h6>
-				  <h4><a href="#/category/{{book.category_url}}">{{ book.category }}</a></h4>
-		  	</div>
-		  </div>
-	  </div>
-	</div>
+<section class="book-list clearfix">
+    <div class="container">
+        <h1 class="text-center title-section">
+      {{ vm.title }}
+    </h1>
+        <form>
+            <input class="input-group" type="text" placeholder="Search" ng-model="query">
+        </form>
+    </div>
+    <div class="book-card pull-left" ng-repeat="book in vm.booksAuthor | filter:query" style="background-image: url({{ book.img }});">
+        <div class="book-details">
+            <h2>{{ book.title }}</h2>
+<!--             <p class="author-link">
+                <a href="#!/author/{{book.author_url}}">{{ book.author }}</a>
+            </p>
+ -->            <p class="title-detail">Description</p>
+            <p class="description-detail">
+                {{ book.description }}
+            </p>
+            <p class="title-detail">Publisher</p>
+            <p class="description-detail">
+                {{ book.publisher }}
+            </p>
+            <!-- <div ng-show="vm.showCategory">
+    <p class="title-detail">Category</p>
+    <p class="category-link description-detail">
+        <a role="button" href="#!/category/{{book.category_url}}">
+            {{ book.category }}
+          </a>
+    </p>
 </div>
+ -->
+        </div>
+    </div>
+</section>

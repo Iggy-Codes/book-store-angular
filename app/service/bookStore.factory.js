@@ -34,22 +34,51 @@
         })
     }
 
+    // function getBooksByAuthor (authorName) {
+    //   authorName = encodeURI('Diana Gabaldon')
+    //   // authorName = authorName.replace(/ /g,"+")
+    //   url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
+    //   return $http.get(url)
+    //   .then(function (response) {
+    //     return response.data.results.map(function (bookAuthor) {
+    //       var isbn13 = bookAuthor.isbns.lenght ? bookAuthor.isbns[0].isbn13 : ''
+    //       // OJOOOO falta implementar 08/02
+    //       var imageDefault
+    //       return {
+    //         title: bookAuthor.title,
+    //         isbn13: isbn13,
+    //         description: bookAuthor.description,
+    //         img: 'https://s1.nyt.com/du/books/images/' + isbn13 + '.jpg',
+    //         category: bookAuthor.ranks_history.display_name
+    //       }
+    //     })
+    //   })
+    // }
+
     function getBooksByAuthor (authorName) {
-      authorName = encodeURI('Diana Gabaldon')
+      authorName = encodeURI(authorName)
       // authorName = authorName.replace(/ /g,"+")
       url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
       .then(function (response) {
-        return response.data.results.map(function (bookAuthor) {
-          var isbn13 = bookAuthor.isbns.lenght ? bookAuthor.isbns[0].isbn13 : ''
-          // OJOOOO falta implementar 08/02
-          var imageDefault
+        var aBooks = response.data.results
+        // new array without elements that not have isbns
+        var aBooksFiltered = aBooks.filter(function (book) {
+          return book.isbns.length
+        })
+        // created a new array with elements to pass
+        return aBooksFiltered.map(function (bookAuthor) {
+          // get the last isbn13 in the array isbns because is near of actually date
+          var elemIsbn13 = bookAuthor.isbns[bookAuthor.isbns.length - 1].isbn13
+          var category = bookAuthor.ranks_history.length ? bookAuthor.ranks_history[bookAuthor.ranks_history.length - 1].display_name : ''
           return {
-            title: bookAuthor.title,
-            isbn13: isbn13,
+            isbn: elemIsbn13,
             description: bookAuthor.description,
-            img: 'https://s1.nyt.com/du/books/images/' + isbn13 + '.jpg',
-            category: bookAuthor.ranks_history.display_name
+            title: bookAuthor.title,
+            author: bookAuthor.author,
+            img: cfg.urlImageBook.replace('<%ISBN13%>', elemIsbn13),
+            category: category,
+            publisher: bookAuthor.publisher
           }
         })
       })

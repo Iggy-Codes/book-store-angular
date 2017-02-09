@@ -7,15 +7,12 @@
       'BookStoreFactory',
       AuthorController
     ])
-
   function AuthorController ($routeParams, BookStoreFactory) {
     var vm = this
-    vm.title = 'Author'
-    BookStoreFactory.getBooksByAuthor('Diana Gabaldon')
+    vm.title = $routeParams.author
+    BookStoreFactory.getBooksByAuthor($routeParams.author)
     .then(function (response) {
       vm.booksAuthor = response
-      console.log('author')
-      console.log(response)
     })
   }
 })()
