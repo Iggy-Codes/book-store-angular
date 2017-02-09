@@ -1,29 +1,31 @@
 <section class="home-book-list clearfix">
-  <div class="book-card pull-left" ng-repeat="book in vm.booksHome" style="background-image: url({{ book.img }});">
-    <div class="book-details">
+  <div class="home-book-card pull-left" ng-repeat="book in vm.booksHome" style="background-image: url({{ book.img }});">
+    <div class="home-book-details">
       <h2>{{ book.title }}</h2>
       <hr class="divider">
-      <p class="author-link">
+      <p class="home-author-link">
         <a href="#!/author/{{book.author_url}}">{{ book.author }}</a>
       </p>
-      <p class="title-detail">Description</p>
-      <p class="description-detail">
+      <p class="home-title-detail">Description</p>
+      <p class="home-description-detail">
         {{ book.description }}
       </p>
-      <p class="title-detail">Publisher</p>
-      <p class="description-detail">
+      <p class="home-title-detail">Publisher</p>
+      <p class="home-description-detail">
         {{ book.publisher }}
       </p>
-      <p class="title-detail">Category</p>
-      <p class="description-detail">
+      <p class="home-title-detail">Category</p>
+      <p class="home-category-link home-description-detail">
         <a role="button" href="#!/category/{{book.category_url}}">
           {{ book.category }}
         </a>
       </p>
-      <p class="bestseller-ranking">
-        <i class="fa fa-star-o" aria-hidden="true"></i> 
-        This book has been a BestSeller for <strong>{{ book.weeksOnList }}</strong> weeks
-      </p>
+      <div class="bestseller-ranking">
+        <p>
+          <i class="fa fa-star-o" aria-hidden="true"></i> 
+          This book has been a BestSeller for <strong>{{ book.weeksOnList }}</strong> weeks
+        </p>
+      </div>
     </div>
   </div>
 </section>
