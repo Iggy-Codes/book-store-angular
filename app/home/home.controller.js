@@ -11,7 +11,7 @@
     var vm = this
     BookStoreFactory.getHomeData()
     .then(function (response) {
-      vm.booksHome = response
+      vm.booksResult = response
       console.log('Home' + response)
     })
   }

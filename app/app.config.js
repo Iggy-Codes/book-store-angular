@@ -10,12 +10,12 @@
   function routerConfig ($routeProvider) {
     $routeProvider
       .when('/home', {
-        templateUrl: 'app/home/home.tpl.html',
+        templateUrl: 'app/tpl/thumb-books.tpl.html',
         controller: 'HomeController',
         controllerAs: 'vm'
       })
-      .when('/category', {
-        templateUrl: 'app/category/category.tpl.html',
+      .when('/category/:categoryURL', {
+        templateUrl: 'app/tpl/thumb-books.tpl.html',
         controller: 'CategoryController',
         controllerAs: 'vm'
       })

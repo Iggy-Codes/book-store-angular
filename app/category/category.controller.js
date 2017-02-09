@@ -13,7 +13,7 @@
     BookStoreFactory.getCategoryBooks($rootScope.nameCategory)
     .then(function (response) {
       console.log('category controller response: ' + response)
-      vm.booksCategory = response
+      vm.booksResult = response
       console.log(response)
     })
   }

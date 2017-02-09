@@ -1,7 +1,7 @@
 <div class="container">
-  <h1 class="text-center"> Welcome to our store </h1>
+  <h1 class="text-center title-section"> Welcome to our store </h1>
 	<div class="row book_container">
-    <div ng-repeat="book in vm.booksHome" class="image_container">
+    <div ng-repeat="book in vm.booksResult" class="image_container">
 			<p><a class="btn-category btn btn-info" role="button" href="#!/category/{{book.category_url}}">{{ book.category }}</a></p>
       <div class="thumbnail">
         <div style="background-image: url({{ book.img }});" class="image_book"/></div >
