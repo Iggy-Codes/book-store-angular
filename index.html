@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="bookStoreApp">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>NYT Book Store</title>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -8,109 +9,24 @@
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/angular-resource/angular-resource.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-      >
-      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-      <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-      <header>
-        <nav class="navbar navbar-static-top navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <img src="../img/BS2.png" alt="" class="navbar-brand" id="logo">
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                  <a href class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BOOKS</a>
-                  <ul class="dropdown-menu">
-                    <div class="row columns">
-                      <div class="col-md-5">
-                        <li class="dropdown-header">Subjects</li>
-                        <li><a href="#">Hardcover Fiction</a></li>
-                        <li><a href="#">Trade Fiction Paperback</a></li>
-                        <li><a href="#">Hardcover Nonfiction</a></li>
-                        <li><a href="#">Paperback Nonfiction</a></li>
-                        <li><a href="#">Advice How-To and Miscellaneous</a></li>
-                        <li><a href="#">Childrens Middle Grade Hardcover</a></li>
-                        <li><a href="#">Picture Books</a></li>
-                        <li><a href="#">Series Books</a></li>
-                        <li><a href="#">Young Adult Hardcover</a></li>
-                        <li><a href="#">Business Books</a></li>
-                        <li><a href="#">Science</a></li>
-                        <li><a href="#">Sports</a></li>
-                      </div>
-                      <div class="col-md-5">
-                        <li class="dropdown-header">Favorites</li>
-                        <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Bestellers</a></li>
-                        <li><a href="#">Coming Soon</a></li>
-                        <li><a href="#">Discounts</a></li>
-                        <li><a href="#">Best Books of 2016</a></li>
-                      </div>
-                    </div>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EBOOKS</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Fiction</a></li>
-                    <li><a href="#">Nonfiction</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <main ng-view></main>
-      <footer>
-        <div class="row">
-          <div class="col-md-9">
-            <ul class="list-unstyled text-center">
-              <div class="col-md-4">
-                <li>
-                  <p id="location"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
-                  <p>Bstore - Plaça Reial 18, Barcelona, Spain</p>
-                </li>
-              </div>
-              <div class="col-md-3">
-                <li>
-                  <p id="phone"><i class="fa fa-phone-square" aria-hidden="true"></i></p>
-                  <p>+34 93 176 02 20</p>
-                </li>
-              </div>
-              <div class="col-md-2">
-                <li>
-                  <p id="mail"><i class="fa fa-envelope" aria-hidden="true"></i></p>
-                  <p>contact@bstore.com</p>
-                </li>
-              </div>
-            </ul>
-          </div>
-          <div class="col-md-3 text-center">
-            <a href="#"><i class="fa fa-facebook-square icons social" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter-square icons social" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
-            <div class="row">
-              <div class="col-md-12">
-                <p class="copyright text-right">Copyright © 2017. All rights reserved.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header ng-include src="'app/header/header.tpl.html'">
+    </header>
+    <main ng-view></main>
+    <footer ng-include src="'app/footer/footer.tpl.html'">
     </footer>
     <script src="app/app.module.js"></script>
-    <!-- <script src="app/service/bookStore.service.js"></script> -->
     <script src="app/app.constant.js"></script>
     <script src="app/service/bookStore.factory.js"></script>
     <script src="app/home/home.controller.js"></script>
     <script src="app/category/category.controller.js"></script>
     <script src="app/author/author.controller.js"></script>
     <script src="app/book/book.controller.js"></script>
-    <!-- <script src="app/overview/overview.controller.js"></script> -->
     <script src="app/app.config.js"></script>
-  </body>
+</body>
 </html>
-
