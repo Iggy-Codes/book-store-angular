@@ -22,13 +22,16 @@
         .then(function (response) {
           return response.data.results.lists.map(function (element) {
             return {
-              'title': element.books[0].title,
-              'author': element.books[0].author,
-              'author_url': encodeURI(element.books[0].author),
-              'img': element.books[0].book_image,
-              'category': element.display_name,
-              'category_url': element.list_name_encoded,
-              'isbn13': element.books[0].primary_isbn13
+              author: element.books[0].author,
+              author_url: encodeURI(element.books[0].author),
+              category: element.display_name,
+              category_url: element.list_name_encoded,
+              description: element.books[0].description,
+              img: element.books[0].book_image,
+              isbn13: element.books[0].primary_isbn13,
+              publisher: element.books[0].publisher,
+              title: element.books[0].title,
+              weeksOnList: element.books[0].weeks_on_list
             }
           })
         })
