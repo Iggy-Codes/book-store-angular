@@ -24,7 +24,7 @@
         controller: 'AuthorController',
         controllerAs: 'vm'
       })
-      // .otherwise('/home')
+      .otherwise('/home')
   }
 })()
 
