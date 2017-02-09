@@ -12,7 +12,7 @@
     function getHomeData () { // eslint-disable-line no-unused-vars
       var url = cfg.urlHome.replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
-        .then(getFirstEachCategory)
+        .then(getOverviewBooks)
         .then(getBooksForHome)
     }
 
@@ -71,32 +71,61 @@
       getBooksByAuthor: getBooksByAuthor
     }
 
-    function getFirstEachCategory (categories) {
-      return categories.data.results.lists.map(function (element) {
-        return {
-          author: element.books[0].author,
-          author_url: encodeURI(element.books[0].author),
-          category: element.display_name,
-          category_url: element.list_name_encoded,
-          description: element.books[0].description,
-          img: element.books[0].book_image,
-          isbn: element.books[0].primary_isbn13,
-          publisher: element.books[0].publisher,
-          title: element.books[0].title,
-          weeksOnList: element.books[0].weeks_on_list
-        }
+    // function getFirstEachCategory (categories) {
+    //   return categories.data.results.lists.map(function (element) {
+    //     return {
+    //       author: element.books[0].author,
+    //       author_url: encodeURI(element.books[0].author),
+    //       category: element.display_name,
+    //       category_url: element.list_name_encoded,
+    //       description: element.books[0].description,
+    //       img: element.books[0].book_image,
+    //       isbn: element.books[0].primary_isbn13,
+    //       publisher: element.books[0].publisher,
+    //       title: element.books[0].title,
+    //       weeksOnList: element.books[0].weeks_on_list
+    //     }
+    //   })
+    // }
+
+    function getOverviewBooks (response) {
+      var aBooks = []
+      console.log('getCategorBooksyOverview')
+      console.log(response.data.results.lists)
+      response.data.results.lists.forEach(function (category) {
+        var categoryDisplay = category.display_name
+        var categoryEncoded = category.list_name_encoded
+        category.books.forEach(function (book) {
+          aBooks.push({
+            author: book.author,
+            author_url: encodeURI(book.author),
+            category: categoryDisplay,
+            category_url: categoryEncoded,
+            description: book.description,
+            img: book.book_image,
+            isbn: book.primary_isbn13,
+            publisher: book.publisher,
+            title: book.title,
+            weeksOnList: book.weeks_on_list
+          })
+        })
       })
+      return aBooks
     }
 
     function getBooksForHome (arrayBooks) {
-      var aleatoryNumbers = []
       var booksHome = []
-      var booksHomeLength = cfg.booksInHome
-      while (aleatoryNumbers.length < booksHomeLength && arrayBooks.length >= aleatoryNumbers.length) {
+      var booksHomeLengthMax = (cfg.booksInHome < arrayBooks.length) ? cfg.booksInHome : arrayBooks.length
+      console.log(booksHomeLengthMax)
+      while (booksHome.length < booksHomeLengthMax) {
         var aleatory = getRandomIntInclusive(0, arrayBooks.length - 1)
-        if (aleatoryNumbers.indexOf(aleatory) === -1) {
+        // Check that the titles are diferent
+        var isInArray = false
+        booksHome.forEach(function (book) {
+          if (book.title === arrayBooks[aleatory].title) isInArray = true
+        })
+        if (!isInArray) {
           booksHome.push(arrayBooks[aleatory])
-          aleatoryNumbers.push(aleatory)
         }
       }
       return booksHome
