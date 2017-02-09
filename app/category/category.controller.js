@@ -4,17 +4,24 @@
   .module('bookStoreApp')
   .controller('CategoryController', [
     'BookStoreFactory',
-    '$rootScope',
+    '$routeParams',
     CategoryController
   ])
 
-  function CategoryController (BookStoreFactory, $rootScope) {
+  function CategoryController (BookStoreFactory, $routeParams) {
     var vm = this
-    BookStoreFactory.getCategoryBooks($rootScope.nameCategory)
+    vm.showCategory = false
+    console.log('category controller ' + $routeParams.categoryURL)
+    BookStoreFactory.getCategoryName($routeParams.categoryURL)
     .then(function (response) {
-      console.log('category controller response: ' + response)
+      console.log('title categories')
+      console.log('Category Controller Title')
+      console.log(response[0].display_name)
+      vm.title = response[0].display_name
+    })
+    BookStoreFactory.getCategoryBooks($routeParams.categoryURL)
+    .then(function (response) {
       vm.booksResult = response
-      console.log(response)
     })
   }
 })()

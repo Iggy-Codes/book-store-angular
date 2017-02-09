@@ -19,7 +19,7 @@
         controller: 'CategoryController',
         controllerAs: 'vm'
       })
-      .when('/author', {
+      .when('/author/:author', {
         templateUrl: 'app/author/author.tpl.html',
         controller: 'AuthorController',
         controllerAs: 'vm'

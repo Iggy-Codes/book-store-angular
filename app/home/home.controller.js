@@ -9,10 +9,13 @@
 
   function HomeController (BookStoreFactory) {
     var vm = this
+    vm.showCategory = true
+    vm.title = ' Welcome to our store '
     BookStoreFactory.getHomeData()
     .then(function (response) {
       vm.booksResult = response
-      console.log('Home' + response)
+      // vm.showCategory = true
+      // console.log('Home' + response)
     })
   }
 })()

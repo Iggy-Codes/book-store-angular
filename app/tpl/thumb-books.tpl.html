@@ -1,12 +1,12 @@
 <div class="container">
-  <h1 class="text-center title-section"> Welcome to our store </h1>
+  <h1 class="text-center title-section">{{ vm.title }}</h1>
 	<div class="row book_container">
     <div ng-repeat="book in vm.booksResult" class="image_container">
-			<p><a class="btn-category btn btn-info" role="button" href="#!/category/{{book.category_url}}">{{ book.category }}</a></p>
+			<p ng-show="vm.showCategory"><a class="btn-category btn btn-info" role="button" href="#!/category/{{book.category_url}}">{{ book.category }}</a></p>
       <div class="thumbnail">
         <div style="background-image: url({{ book.img }});" class="image_book"/></div >
         <div class="caption">
-          <h3 class="text-center"><a href="#!/book/{{book.isbn13}}"><strong>{{ book.title }}</strong></a></h3>
+          <h3 class="text-center"><a href="#!/book/{{book.isbn}}"><strong>{{ book.title }}</strong></a></h3>
           <h5 class="text-center"><a href="#!/author/{{book.author_url}}">{{ book.author }}</a></h5>
 		  	</div>
 		  </div>
