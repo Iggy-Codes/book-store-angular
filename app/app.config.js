@@ -20,7 +20,8 @@
         controllerAs: 'vm'
       })
       .when('/author/:author', {
-        templateUrl: 'app/author/author.tpl.html',
+        templateUrl: 'app/tpl/thumb-books.tpl.html',
+        // templateUrl: 'app/author/author.tpl.html',
         controller: 'AuthorController',
         controllerAs: 'vm'
       })

@@ -63,25 +63,6 @@
       })
     }
 
-    // function getBooksByAuthor (authorName) {
-    //   // var authorName = "Diana Gabaldon"
-    //   authorName = authorName.replace(/ /g, '+')
-    //   var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=' + cfg.apiKey + '&' + 'author=<%AUTHOR%>'
-    //   url = url.replace('<%AUTHOR%>', authorName)
-    //   return $http.get(url)
-    //     .then(function (response) {
-    //       return response.data.results.map(function (bookAuthor) {
-    //         return {
-    //           title: bookAuthor.title,
-    //           isbn13: bookAuthor.isbns[0].isbn13,
-    //           description: bookAuthor.description,
-    //           img: 'https://s1.nyt.com/du/books/images/' + bookAuthor.isbns[0].isbn13 + '.jpg',
-    //           category: bookAuthor.ranks_history.display_name
-    //         }
-    //       })
-    //     })
-    // }
-
     return {
       getHomeData: getHomeData,
       getCategoryBooks: getCategoryBooks,
