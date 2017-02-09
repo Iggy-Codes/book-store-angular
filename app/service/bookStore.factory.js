@@ -4,147 +4,132 @@
     .module('bookStoreApp')
     .factory('BookStoreFactory', [
       '$http',
+      'cfg',
       BookStoreFactory
     ])
 
-  function getRandomIntInclusive (min, max) {
-    min = Math.ceil(min)
-    max = Math.floor(max)
-    return Math.floor(Math.random() * (max - min + 1)) + min
-  }
-
-  function BookStoreFactory ($http) {
-    var apiKey = '0b43b9cd5a3c4f81b07b260f4fd8f888'
+  function BookStoreFactory ($http, cfg) {
     function getHomeData () { // eslint-disable-line no-unused-vars
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/overview?api-key=' + apiKey
-      console.log(url)
+      var url = cfg.urlHome.replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
-        .then(function (response) {
-          return response.data.results.lists.map(function (element) {
-            return {
-              author: element.books[0].author,
-              author_url: encodeURI(element.books[0].author),
-              category: element.display_name,
-              category_url: element.list_name_encoded,
-              description: element.books[0].description,
-              img: element.books[0].book_image,
-              isbn13: element.books[0].primary_isbn13,
-              publisher: element.books[0].publisher,
-              title: element.books[0].title,
-              weeksOnList: element.books[0].weeks_on_list
-            }
-          })
-        })
-        .then(function (response) {
-          var aleatoryNumbers = []
-          var aleatoryBooks = []
-          var numberAleatoryBooks = 8
-          while (aleatoryNumbers.length < numberAleatoryBooks) {
-            var aleatory = getRandomIntInclusive(0, response.length - 1)
-            if (aleatoryNumbers.indexOf(aleatory) === -1) {
-              console.log(aleatory)
-              aleatoryBooks.push(response[aleatory])
-              aleatoryNumbers.push(aleatory)
-            }
-          }
-          console.log('Aleatory Books')
-          console.log(aleatoryBooks)
-          return aleatoryBooks
-        })
+        .then(getFirstEachCategory)
+        .then(getBooksForHome)
     }
-    function getCategoryList () { // eslint-disable-line no-unused-vars
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/overview?api-key=' + apiKey
-      console.log(url)
-      return $http.get(url)
-        .then(function (response) {
-          return response.data.results.lists.map(function (element) {
-            return {
-              'list_id': element.list_id,
-              'list_name': element.list_name,
-              'list_name_encoded': element.list_name_encoded,
-              'display_name': element.display_name,
-              'updated': element.updated
-            }
-          })
-        })
-    }
+
     function getCategoryBooks (categoryURL) {
       categoryURL = 'combined-print-and-e-book-fiction'
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/current/<%CATEGORY-NAME%>.json?api-key=' + apiKey
-      url = url.replace('<%CATEGORY-NAME%>', categoryURL)
+      var url = cfg.urlCategory.replace('<%CATEGORY-NAME%>', categoryURL).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
-        .then(function (response) {
-          return response.data.results.books.map(function (book) {
-            return {
-              'rank': book.rank,
-              'primary_isbn13': book.primary_isbn13,
-              'description': book.description,
-              'title': book.title,
-              'author': book.author,
-              'img': book.book_image
-            }
+        .then(getCategoryResults)
+    }
+
+    function getCategoryName (urlListName) {
+      var url = cfg.urlHome.replace('<%API-KEY%>', cfg.apiKey)
+      return $http.get(url)
+        .then(getListDetails)
+        .then(function (arrayList) {
+          return arrayList.filter(function (element) {
+            if (element.list_name_encoded === urlListName) return element
           })
         })
     }
+
     function getBooksDetails (isbnBook) {
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?isbn=<%ISBN%>&api-key=' + apiKey
-      url = url.replace('<%ISBN%>', isbnBook)
+      var url = cfg.urlBook.replace('<%ISBN%>', isbnBook).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
       .then(function (response) {
         return response.data.results[0]
       })
     }
+
     function getBooksByAuthor (authorName) {
-      // var authorName = "Diana Gabaldon"
-      authorName = authorName.replace(/ /g, '+')
-      var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=' + apiKey + '&' + 'author=<%AUTHOR%>'
-      url = url.replace('<%AUTHOR%>', authorName)
+      authorName = encodeURI('Diana Gabaldon')
+      // authorName = authorName.replace(/ /g,"+")
+      url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
-        .then(function (response) {
-          return response.data.results.map(function (bookAuthor) {
-            return {
-              title: bookAuthor.title,
-              isbn13: bookAuthor.isbns[0].isbn13,
-              description: bookAuthor.description,
-              img: 'https://s1.nyt.com/du/books/images/' + bookAuthor.isbns[0].isbn13 + '.jpg',
-              category: bookAuthor.ranks_history.display_name
-            }
-          })
+      .then(function (response) {
+        return response.data.results.map(function (bookAuthor) {
+          var isbn13 = bookAuthor.isbns.lenght ? bookAuthor.isbns[0].isbn13 : ''
+          // OJOOOO falta implementar 08/02
+          var imageDefault
+          return {
+            title: bookAuthor.title,
+            isbn13: isbn13,
+            description: bookAuthor.description,
+            img: 'https://s1.nyt.com/du/books/images/' + isbn13 + '.jpg',
+            category: bookAuthor.ranks_history.display_name
+          }
         })
+      })
     }
+
     return {
       getHomeData: getHomeData,
       getCategoryBooks: getCategoryBooks,
+      getCategoryName: getCategoryName,
       getBooksDetails: getBooksDetails,
       getBooksByAuthor: getBooksByAuthor
-      // ,
-      // getNameList: getNameList,
-      // getBooksList: getBooksList,
-      // getBooksByISBN: getBooksByISBN,
+    }
 
+    function getFirstEachCategory (categories) {
+      return categories.data.results.lists.map(function (element) {
+        return {
+          author: element.books[0].author,
+          author_url: encodeURI(element.books[0].author),
+          category: element.display_name,
+          category_url: element.list_name_encoded,
+          description: element.books[0].description,
+          img: element.books[0].book_image,
+          isbn: element.books[0].primary_isbn13,
+          publisher: element.books[0].publisher,
+          title: element.books[0].title,
+          weeksOnList: element.books[0].weeks_on_list
+        }
+      })
+    }
+
+    function getBooksForHome (arrayBooks) {
+      var aleatoryNumbers = []
+      var booksHome = []
+      var booksHomeLength = cfg.booksInHome
+      while (aleatoryNumbers.length < booksHomeLength && arrayBooks.length >= aleatoryNumbers.length) {
+        var aleatory = getRandomIntInclusive(0, arrayBooks.length - 1)
+        if (aleatoryNumbers.indexOf(aleatory) === -1) {
+          booksHome.push(arrayBooks[aleatory])
+          aleatoryNumbers.push(aleatory)
+        }
+      }
+      return booksHome
+    }
+
+    function getCategoryResults (response) {
+      return response.data.results.books.map(function (book) {
+        return {
+          rank: book.rank,
+          isbn: book.primary_isbn13,
+          // description: book.description,
+          title: book.title,
+          author: book.author,
+          img: book.book_image
+        }
+      })
+    }
+
+    function getListDetails (response) {
+      return response.data.results.lists.map(function (element) {
+        return {
+          // 'list_id': element.list_id,
+          // 'list_name': element.list_name,
+          list_name_encoded: element.list_name_encoded,
+          display_name: element.display_name
+        }
+      })
+    }
+
+    function getRandomIntInclusive (min, max) {
+      min = Math.ceil(min)
+      max = Math.floor(max)
+      return Math.floor(Math.random() * (max - min + 1)) + min
     }
   }
 })()
-    // function getNameList () { // eslint-disable-line no-unused-vars
-    //   var url = 'https://api.nytimes.com/svc/books/v3/lists/names.json?api-key=' + apiKey
-    //   console.log(url)
-    //   return $http.get(url)
-    // }
-
-    // function getBooksList (listName) { // eslint-disable-line no-unused-vars
-    //   var url = 'https://api.nytimes.com/svc/books/v3/lists/current/' + listName + '.json?api-key=' + apiKey
-    //   console.log(url)
-    //   return $http.get(url)
-    // }
-
-    // function getBooksByISBN (isbn) { // eslint-disable-line no-unused-vars
-    //   var url = 'https://api.nytimes.com//svc/books/v3/lists/best-sellers/history.json?isbn=' + isbn + '&api-key=' + apiKey
-    //   console.log(url)
-    //   return $http.get(url)
-    // }
-
-    // function getBooksByAuthor (authorName) { // eslint-disable-line no-unused-vars
-    //   var url = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?author=' + encodeURI(authorName) + '&sort-by=title&sort-order=desc&api-key=' + apiKey
-    //   console.log(url)
-    //   return $http.get(url)
-    // }

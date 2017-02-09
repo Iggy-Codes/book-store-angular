@@ -2,19 +2,20 @@
 (function () {
   angular
   .module('bookStoreApp')
-  .controller('AuthorController', [
-    'BookStoreFactory',
-    AuthorController
-  ])
+    .controller('AuthorController', [
+      '$routeParams',
+      'BookStoreFactory',
+      AuthorController
+    ])
 
-  function AuthorController (BookStoreFactory) {
+  function AuthorController ($routeParams, BookStoreFactory) {
     var vm = this
     vm.title = 'Author'
-		BookStoreFactory.getBooksByAuthor("Diana Gabaldon") 
-		.then(function (response) {
-			vm.booksAuthor = response
-			console.log("author")
-			console.log(response)
-		})
+    BookStoreFactory.getBooksByAuthor('Diana Gabaldon')
+    .then(function (response) {
+      vm.booksAuthor = response
+      console.log('author')
+      console.log(response)
+    })
   }
 })()
