@@ -34,14 +34,6 @@
         })
     }
 
-    function getBooksDetails (isbnBook) {
-      var url = cfg.urlBook.replace('<%ISBN%>', isbnBook).replace('<%API-KEY%>', cfg.apiKey)
-      return $http.get(url)
-      .then(function (response) {
-        return response.data.results[0]
-      })
-    }
-
     function getBooksByAuthor (authorName) {
       authorName = encodeURI('Diana Gabaldon')
       // authorName = authorName.replace(/ /g,"+")
@@ -67,7 +59,6 @@
       getHomeData: getHomeData,
       getCategoryBooks: getCategoryBooks,
       getCategoryName: getCategoryName,
-      getBooksDetails: getBooksDetails,
       getBooksByAuthor: getBooksByAuthor
     }
 
@@ -105,12 +96,13 @@
     function getCategoryResults (response) {
       return response.data.results.books.map(function (book) {
         return {
-          rank: book.rank,
-          isbn: book.primary_isbn13,
-          // description: book.description,
-          title: book.title,
           author: book.author,
-          img: book.book_image
+          description: book.description,
+          img: book.book_image,
+          isbn: book.primary_isbn13,
+          publisher: book.publisher,
+          rank: book.rank,
+          title: book.title
         }
       })
     }
