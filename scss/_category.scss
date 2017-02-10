@@ -1,0 +1,247 @@
+.book-list h1 {
+  font-family: 'Lato', sans-serif;
+  color: #414543;
+  font-size: 30px;
+}
+
+.book-list-controls .form-control {
+  text-align: center;
+  height: 30px;
+  box-shadow: 0 0 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  width: 100px;
+  margin: 20px 0 20px 160px;
+}
+
+.book-list-controls input.form-control {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.book-card {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position:relative;
+  width: 40%;
+  height: 50vw;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.book-card::before {
+  background-color: white;
+  bottom: 0;
+  content: " ";
+  display: block;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 250ms ease-in-out 0s;
+  z-index: 0;
+}
+
+.book-card .book-details {
+  opacity: 0;
+  position: relative;
+  transition: all 250ms ease-in-out 0s;
+  z-index: 1;
+}
+
+.book-details {
+  font-family: 'Lato', sans-serif;
+}
+
+.book-details h2 {
+  margin-top: 13px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.author-link a {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #1D876E;
+}
+
+.author-link a:hover {
+  text-decoration: none;
+  color: #e96656;
+}
+
+.title-detail {
+  font-size: 12px;
+  color: black;
+  padding-left: 10px;
+}
+
+.description-detail {
+  font-size: 10px;
+  color: #414543;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.description-detail a {
+  font-size: 12px;
+  color: #414543;
+}
+
+.category-link a:hover {
+  text-decoration: none;
+  color: #e96656;
+}
+
+.book-card:hover .book-details {
+  opacity: 1;
+}
+
+.book-card:hover {
+  background-color: #414543;
+  transition: all 280ms ease-in-out 0s;
+}
+
+.book-card:hover::before {
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 640px) {
+  .book-list h1 {
+  font-size: 30px;
+  }
+
+  .book-list-controls .form-control {
+    height: 30px;
+    width: 100px;
+    margin: 20px 0 30px 0;
+  }
+
+  .book-list-controls input.form-control {
+    width: 300px;
+    margin-left: 100px;
+  }
+
+  .book-card {
+    width: 30%;
+    height: 40vw;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .book-details h2 {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .author-link a {
+    font-size: 14px;
+  }
+
+  .title-detail {
+    font-size: 13px;
+    padding-left: 13px;
+  }
+
+  .description-detail {
+    font-size: 12px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .description-detail a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .book-list h1 {
+  font-size: 50px;
+  }
+
+  .book-list-controls .form-control {
+    height: 30px;
+    width: 100px;
+    margin: 30px 0 40px 0;
+  }
+
+  .book-list-controls input.form-control {
+    width: 300px;
+    margin-left: 200px;
+  }
+
+  .book-details h2 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .author-link a {
+    font-size: 16px;
+  }
+
+  .title-detail {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+
+  .description-detail {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .description-detail a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .book-list h1 {
+  font-size: 50px;
+  }
+
+  .book-list-controls .form-control {
+    height: 30px;
+    width: 100px;
+    margin: 30px 0 40px 0;
+  }
+
+  .book-list-controls input.form-control {
+    width: 300px;
+    margin-left: 300px;
+  }
+
+  .book-card {
+    width: 17%;
+    height: 20vw;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+
+  .book-details h2 {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+
+  .author-link a {
+    font-size: 13px;
+  }
+
+  .title-detail {
+    font-size: 12px;
+    padding-left: 15px;
+  }
+
+  .description-detail {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .description-detail a {
+    font-size: 12px;
+  }
+}
