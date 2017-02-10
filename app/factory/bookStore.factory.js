@@ -18,7 +18,6 @@
 
     function getCategoryBooks (categoryURL) {
       var url = cfg.urlCategory.replace('<%CATEGORY-NAME%>', categoryURL).replace('<%API-KEY%>', cfg.apiKey)
-      console.log('urlCategory' + url)
       return $http.get(url)
         .then(getCategoryResults)
     }
@@ -34,37 +33,23 @@
         })
     }
 
-    // function getBooksByAuthor (authorName) {
-    //   authorName = encodeURI('Diana Gabaldon')
-    //   // authorName = authorName.replace(/ /g,"+")
-    //   url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
-    //   return $http.get(url)
-    //   .then(function (response) {
-    //     return response.data.results.map(function (bookAuthor) {
-    //       var isbn13 = bookAuthor.isbns.lenght ? bookAuthor.isbns[0].isbn13 : ''
-    //       // OJOOOO falta implementar 08/02
-    //       var imageDefault
-    //       return {
-    //         title: bookAuthor.title,
-    //         isbn13: isbn13,
-    //         description: bookAuthor.description,
-    //         img: 'https://s1.nyt.com/du/books/images/' + isbn13 + '.jpg',
-    //         category: bookAuthor.ranks_history.display_name
-    //       }
-    //     })
-    //   })
-    // }
-
     function getBooksByAuthor (authorName) {
       authorName = encodeURI(authorName)
-      // authorName = authorName.replace(/ /g,"+")
       url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
       .then(function (response) {
         var aBooks = response.data.results
         // new array without elements that not have isbns
         var aBooksFiltered = aBooks.filter(function (book) {
-          return book.isbns.length
+          var bcontrol = true
+          if (book.isbns.length === 0) {
+            bcontrol = false
+          } else if (book.isbns[book.isbns.length - 1].isbn13 === '') {
+            bcontrol = false
+          } else if (book.description === '' && book.publisher === '') {
+            bcontrol = false
+          }
+          return bcontrol
         })
         // created a new array with elements to pass
         return aBooksFiltered.map(function (bookAuthor) {
@@ -93,8 +78,6 @@
 
     function getOverviewBooks (response) {
       var aBooks = []
-      console.log('getCategorBooksyOverview')
-      console.log(response.data.results.lists)
       response.data.results.lists.forEach(function (category) {
         var categoryDisplay = category.display_name
         var categoryEncoded = category.list_name_encoded
@@ -119,7 +102,6 @@
     function getBooksForHome (arrayBooks) {
       var booksHome = []
       var booksHomeLengthMax = (cfg.booksInHome < arrayBooks.length) ? cfg.booksInHome : arrayBooks.length
-      console.log(booksHomeLengthMax)
       while (booksHome.length < booksHomeLengthMax) {
         var aleatory = getRandomIntInclusive(0, arrayBooks.length - 1)
         // Check that the titles are diferent
@@ -138,6 +120,7 @@
       return response.data.results.books.map(function (book) {
         return {
           author: book.author,
+          author_url: encodeURI(book.author),
           description: book.description,
           img: book.book_image,
           isbn: book.primary_isbn13,
