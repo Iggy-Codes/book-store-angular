@@ -1,0 +1,56 @@
+header .navbar {
+  background-color: #FFF;
+  margin-bottom: 0;
+}
+
+header .navbar-default .navbar-nav > li > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #2D2F30;
+}
+
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #e96656;
+}
+
+header .fav {
+  margin-right: 10px;
+}
+
+header li.dropdown-header {
+  font-size: 15px;
+  padding: 0;
+  color: #ABA6A1;
+}
+
+header ul.subjects-list {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 20px;
+}
+
+header ul.subjects-list a {
+  color: #2D2F30;
+}
+
+header ul.subjects-list li {
+  margin-bottom: 5px;
+}
+
+header ul.subjects-list a:hover {
+  color: #34d293;
+  text-decoration: none;
+  background: none;
+}
+
+header li.ebooks {
+  margin-top: 20px;
+}
+
+#logo {
+  padding: 10px;
+}
+
+.columns {
+  width: 400px;
+}
