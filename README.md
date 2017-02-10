@@ -8,7 +8,7 @@
 
 # Books Store Angular App
 
-This repo contains an app w/ [AngularJS](https://angularjs.org/) that allows you to search, filter and show the book information provided by [New York Times API](http://developer.nytimes.com/) 
+This repo contains an app developed w/ [AngularJS](https://angularjs.org/) that allows you to show and filter the [New York Times API](http://developer.nytimes.com/) Best Sellers information.
 
 ## Motivation
 
