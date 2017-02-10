@@ -35,14 +35,21 @@
 
     function getBooksByAuthor (authorName) {
       authorName = encodeURI(authorName)
-      // authorName = authorName.replace(/ /g,"+")
       url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
       .then(function (response) {
         var aBooks = response.data.results
         // new array without elements that not have isbns
         var aBooksFiltered = aBooks.filter(function (book) {
-          return book.isbns.length
+          var bcontrol = true
+          if (book.isbns.length === 0) {
+            bcontrol = false
+          } else if (book.isbns[book.isbns.length - 1].isbn13 === '') {
+            bcontrol = false
+          } else if (book.description === '' && book.publisher === '') {
+            bcontrol = false
+          }
+          return bcontrol
         })
         // created a new array with elements to pass
         return aBooksFiltered.map(function (bookAuthor) {
@@ -113,6 +120,7 @@
       return response.data.results.books.map(function (book) {
         return {
           author: book.author,
+          author_url: encodeURI(book.author),
           description: book.description,
           img: book.book_image,
           isbn: book.primary_isbn13,
