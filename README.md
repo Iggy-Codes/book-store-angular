@@ -30,9 +30,9 @@ All the code has been developed under the [JavaScript Standard Style](http://sta
 
 ## Authors
 
-[Stivali Serna] (https://github.com/stivaliserna)
-[Oscar Viciana] (https://github.com/)
-[Ignasi Amargós](http://github.com/Iggy-Codes) 
+* [Stivali Serna] (https://github.com/stivaliserna)
+* [Oscar Viciana] (https://github.com/)
+* [Ignasi Amargós](http://github.com/Iggy-Codes) 
 
 ## License
 
@@ -43,3 +43,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [SkylabCoders](https://github.com/SkylabCoders)
 * [JuanMa Garrido](https://github.com/juanmaguitar)
 * [AlejandroDG](https://github.com/agandia9)
+* [The New York Times](https://www.nytimes.com/)
