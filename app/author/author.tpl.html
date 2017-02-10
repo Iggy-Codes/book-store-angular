@@ -3,8 +3,8 @@
         <h1 class="text-center title-section">
       {{ vm.title }}
     </h1>
-        <form>
-            <input class="input-group" type="text" placeholder="Search" ng-model="query">
+        <form class="form-inline book-list-controls text-center">
+            <input class="form-control" type="text" placeholder="Books Filter" ng-model="query">
         </form>
     </div>
     <div class="book-card pull-left" ng-repeat="book in vm.booksAuthor | filter:query" style="background-image: url({{ book.img }});">

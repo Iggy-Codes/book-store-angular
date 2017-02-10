@@ -10,13 +10,15 @@
   box-shadow: 0 0 1px;
   text-transform: uppercase;
   border-radius: 0;
-  width: 100px;
-  margin: 20px 0 20px 160px;
+  width: 150px;
+  font-family: 'Lato', sans-serif;
+  color: #8C8884;
+  margin: 30px 0 30px 0;
 }
 
 .book-list-controls input.form-control {
   width: 300px;
-  margin-left: 60px;
+  padding: 0;
 }
 
 .book-card {
@@ -65,12 +67,12 @@
   display: block;
   text-align: center;
   font-size: 13px;
-  color: #1D876E;
+  color: #e96656;
 }
 
 .author-link a:hover {
   text-decoration: none;
-  color: #e96656;
+  color: #1D876E;
 }
 
 .title-detail {
@@ -91,11 +93,6 @@
   color: #414543;
 }
 
-.category-link a:hover {
-  text-decoration: none;
-  color: #e96656;
-}
-
 .book-card:hover .book-details {
   opacity: 1;
 }
@@ -111,18 +108,7 @@
 
 @media only screen and (min-width: 640px) {
   .book-list h1 {
-  font-size: 30px;
-  }
-
-  .book-list-controls .form-control {
-    height: 30px;
-    width: 100px;
-    margin: 20px 0 30px 0;
-  }
-
-  .book-list-controls input.form-control {
-    width: 300px;
-    margin-left: 100px;
+    font-size: 30px;
   }
 
   .book-card {
@@ -162,17 +148,6 @@
   font-size: 50px;
   }
 
-  .book-list-controls .form-control {
-    height: 30px;
-    width: 100px;
-    margin: 30px 0 40px 0;
-  }
-
-  .book-list-controls input.form-control {
-    width: 300px;
-    margin-left: 200px;
-  }
-
   .book-details h2 {
     margin-top: 20px;
     font-size: 18px;
@@ -201,17 +176,6 @@
 @media only screen and (min-width: 1300px) {
   .book-list h1 {
   font-size: 50px;
-  }
-
-  .book-list-controls .form-control {
-    height: 30px;
-    width: 100px;
-    margin: 30px 0 40px 0;
-  }
-
-  .book-list-controls input.form-control {
-    width: 300px;
-    margin-left: 300px;
   }
 
   .book-card {
