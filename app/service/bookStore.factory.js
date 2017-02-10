@@ -17,8 +17,8 @@
     }
 
     function getCategoryBooks (categoryURL) {
-      categoryURL = 'combined-print-and-e-book-fiction'
       var url = cfg.urlCategory.replace('<%CATEGORY-NAME%>', categoryURL).replace('<%API-KEY%>', cfg.apiKey)
+      console.log('urlCategory' + url)
       return $http.get(url)
         .then(getCategoryResults)
     }
