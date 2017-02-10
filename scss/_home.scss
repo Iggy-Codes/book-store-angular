@@ -48,12 +48,12 @@ hr.divider {
   display: block;
   text-align: center;
   font-size: 14px;
-  color: #414543;
+  color: #e96656;
 }
 
 .home-author-link a:hover {
   text-decoration: none;
-  color: #e96656;
+  color: #414543;
 }
 
 .home-title-detail {
@@ -74,9 +74,14 @@ hr.divider {
   color: #414543;
 }
 
-.home-category-link a:hover {
+.home-category-link a {
   text-decoration: none;
   color: #e96656;
+}
+
+.home-category-link a:hover {
+  text-decoration: none;
+  color: #414543;
 }
 
 .bestseller-ranking i {
