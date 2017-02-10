@@ -9190,72 +9190,108 @@ button.close {
   }
 }
 
-/* line 5, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 1, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 header .navbar {
   background-color: #FFF;
   margin-bottom: 0;
 }
 
-/* line 10, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 6, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 header .navbar-default .navbar-nav > li > a {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   color: #2D2F30;
 }
 
-/* line 16, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 12, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 header .navbar-default .navbar-nav > li > a:hover {
   color: #e96656;
 }
 
-/* line 20, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 16, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 header .fav {
   margin-right: 10px;
 }
 
-/* line 24, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 20, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header li.dropdown-header {
+  font-size: 15px;
+  padding: 0;
+  color: #ABA6A1;
+}
+
+/* line 26, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header ul.subjects-list {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 20px;
+}
+
+/* line 32, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header ul.subjects-list a {
+  color: #2D2F30;
+}
+
+/* line 36, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header ul.subjects-list li {
+  margin-bottom: 5px;
+}
+
+/* line 40, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header ul.subjects-list a:hover {
+  color: #34d293;
+  text-decoration: none;
+  background: none;
+}
+
+/* line 46, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
+header li.favorites, .shop {
+  margin-top: 20px;
+}
+
+/* line 50, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 #logo {
   padding: 10px;
 }
 
-/* line 28, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 54, /home/iggy/Documents/skylab-project/front-end-project/scss/_header.scss */
 .columns {
-  width: 500px;
+  width: 400px;
 }
 
-/* line 32, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 1, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer {
   background-color: #272727;
   padding: 30px;
 }
 
-/* line 37, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 6, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer li > p {
   color: #939393;
 }
 
-/* line 41, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 10, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer #location {
   color: #e96656;
   font-size: 30px;
   text-align: center;
 }
 
-/* line 47, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 16, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer #phone {
   color: #34d293;
   font-size: 30px;
   text-align: center;
 }
 
-/* line 52, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 21, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer #mail {
   color: #3ab0e2;
   font-size: 30px;
   text-align: center;
 }
 
-/* line 58, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 27, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 footer i.social {
   color: #939393;
   font-size: 20px;
@@ -9263,24 +9299,24 @@ footer i.social {
   margin-bottom: 30px;
 }
 
-/* line 65, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 34, /home/iggy/Documents/skylab-project/front-end-project/scss/_footer.scss */
 .copyright {
   font-size: 15px;
   margin-right: 30px;
   color: #939393;
 }
 
-/* line 73, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 1, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-card {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
-  width: 25%;
-  height: 38vw;
+  width: 50%;
+  height: 80vw;
 }
 
-/* line 82, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 10, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-card::before {
   background-color: white;
   bottom: 0;
@@ -9295,7 +9331,7 @@ footer i.social {
   z-index: 0;
 }
 
-/* line 96, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 24, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-card .home-book-details {
   opacity: 0;
   position: relative;
@@ -9303,121 +9339,277 @@ footer i.social {
   z-index: 1;
 }
 
-/* line 103, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 31, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-details {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 107, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 35, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-details h2 {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 17px;
 }
 
-/* line 113, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 41, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 hr.divider {
   background-color: #34d293;
   height: 1px;
-  max-width: 300px;
+  max-width: 200px;
 }
 
-/* line 119, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 47, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-author-link a {
   display: block;
   text-align: center;
-  font-size: 20px;
-  color: #414543;
+  font-size: 14px;
+  color: #e96656;
 }
 
-/* line 126, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 54, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-author-link a:hover {
   text-decoration: none;
-  color: #e96656;
+  color: #414543;
 }
 
-/* line 131, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 59, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-title-detail {
-  font-size: 17px;
+  font-size: 14px;
   color: black;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
-/* line 137, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 65, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-description-detail {
-  font-size: 15px;
+  font-size: 12px;
   color: #414543;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-/* line 144, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 72, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-description-detail a {
-  font-size: 15px;
+  font-size: 12px;
   color: #414543;
 }
 
-/* line 149, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.home-category-link a:hover {
+/* line 77, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+.home-category-link a {
   text-decoration: none;
   color: #e96656;
 }
 
-/* line 154, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.bestseller-ranking i {
-  color: #DBC625;
-  font-size: 25px;
-  margin: 30px 8px 0 10px;
+/* line 82, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+.home-category-link a:hover {
+  text-decoration: none;
+  color: #414543;
 }
 
-/* line 160, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.bestseller-ranking p {
+/* line 87, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+.bestseller-ranking i {
+  color: #DBC625;
   font-size: 15px;
+  margin: 0 8px 0 10px;
+}
+
+/* line 93, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+.bestseller-ranking p {
+  font-size: 10px;
   color: #414543;
   padding: 10px;
 }
 
-/* line 166, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 99, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-card:hover .home-book-details {
   opacity: 1;
 }
 
-/* line 170, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 103, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
 .home-book-card:hover::before {
   opacity: 0.8;
 }
 
-/* line 176, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+@media only screen and (min-width: 640px) {
+  /* line 108, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-card {
+    width: 50%;
+    height: 80vw;
+  }
+  /* line 113, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-details h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* line 118, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  hr.divider {
+    height: 1px;
+    max-width: 200px;
+  }
+  /* line 123, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-author-link a {
+    font-size: 15px;
+  }
+  /* line 127, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-title-detail {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  /* line 132, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 138, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail a {
+    font-size: 13px;
+  }
+  /* line 142, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking i {
+    font-size: 15px;
+    margin: 0 8px 0 8px;
+  }
+  /* line 147, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking p {
+    font-size: 11px;
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 154, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-card {
+    width: 25%;
+    height: 38vw;
+  }
+  /* line 159, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-details h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+  }
+  /* line 165, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  hr.divider {
+    height: 1px;
+    max-width: 200px;
+  }
+  /* line 170, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-author-link a {
+    font-size: 14px;
+  }
+  /* line 174, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-title-detail {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  /* line 179, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 185, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail a {
+    font-size: 12px;
+  }
+  /* line 189, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking i {
+    font-size: 15px;
+    margin: 0 10px 0 5px;
+  }
+  /* line 194, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking p {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  /* line 201, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-card {
+    width: 25%;
+    height: 38vw;
+  }
+  /* line 206, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-book-details h2 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  /* line 211, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  hr.divider {
+    height: 1px;
+    max-width: 300px;
+  }
+  /* line 216, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-author-link a {
+    font-size: 20px;
+  }
+  /* line 220, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-title-detail {
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  /* line 225, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 231, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .home-description-detail a {
+    font-size: 15px;
+  }
+  /* line 235, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking i {
+    font-size: 25px;
+    margin: 20px 8px 0 10px;
+  }
+  /* line 240, /home/iggy/Documents/skylab-project/front-end-project/scss/_home.scss */
+  .bestseller-ranking p {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* line 1, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-list h1 {
   font-family: 'Lato', sans-serif;
   color: #414543;
-  font-size: 50px;
+  font-size: 30px;
 }
 
-/* line 182, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.book-list .input-group {
-  border: 1px solid #ADA8A4;
+/* line 7, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+.book-list-controls .form-control {
   text-align: center;
   height: 30px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  box-shadow: 0 0 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  width: 150px;
+  font-family: 'Lato', sans-serif;
+  color: #8C8884;
+  margin: 30px 0 30px 0;
 }
 
-/* line 192, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 19, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+.book-list-controls input.form-control {
+  width: 300px;
+  padding: 0;
+}
+
+/* line 24, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: relative;
-  width: 17%;
-  height: 20vw;
-  margin-left: 30px;
-  margin-bottom: 40px;
+  width: 40%;
+  height: 50vw;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-/* line 203, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 35, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card::before {
   background-color: white;
   bottom: 0;
@@ -9432,7 +9624,7 @@ hr.divider {
   z-index: 0;
 }
 
-/* line 217, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 49, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card .book-details {
   opacity: 0;
   position: relative;
@@ -9440,73 +9632,174 @@ hr.divider {
   z-index: 1;
 }
 
-/* line 224, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 56, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-details {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 228, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 60, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-details h2 {
-  margin-top: 18px;
+  margin-top: 13px;
   text-align: center;
   font-size: 15px;
 }
 
-/* line 234, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 66, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .author-link a {
   display: block;
   text-align: center;
   font-size: 13px;
-  color: #1D876E;
-}
-
-/* line 241, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.author-link a:hover {
-  text-decoration: none;
   color: #e96656;
 }
 
-/* line 246, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 73, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+.author-link a:hover {
+  text-decoration: none;
+  color: #1D876E;
+}
+
+/* line 78, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .title-detail {
   font-size: 12px;
   color: black;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
-/* line 252, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 84, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .description-detail {
-  font-size: 12px;
+  font-size: 10px;
   color: #414543;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 259, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 91, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .description-detail a {
   font-size: 12px;
   color: #414543;
 }
 
-/* line 264, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
-.category-link a:hover {
-  text-decoration: none;
-  color: #e96656;
-}
-
-/* line 269, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 96, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card:hover .book-details {
   opacity: 1;
 }
 
-/* line 273, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 100, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card:hover {
   background-color: #414543;
   transition: all 280ms ease-in-out 0s;
 }
 
-/* line 278, /home/iggy/Documents/skylab-project/front-end-project/scss/main.scss */
+/* line 105, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
 .book-card:hover::before {
   opacity: 0.8;
+}
+
+@media only screen and (min-width: 640px) {
+  /* line 110, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-list h1 {
+    font-size: 30px;
+  }
+  /* line 114, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-card {
+    width: 30%;
+    height: 40vw;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  /* line 121, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-details h2 {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  /* line 126, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .author-link a {
+    font-size: 14px;
+  }
+  /* line 130, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .title-detail {
+    font-size: 13px;
+    padding-left: 13px;
+  }
+  /* line 135, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail {
+    font-size: 12px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  /* line 141, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 147, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-list h1 {
+    font-size: 50px;
+  }
+  /* line 151, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-details h2 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  /* line 156, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .author-link a {
+    font-size: 16px;
+  }
+  /* line 160, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .title-detail {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  /* line 165, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 171, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  /* line 177, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-list h1 {
+    font-size: 50px;
+  }
+  /* line 181, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-card {
+    width: 17%;
+    height: 20vw;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+  /* line 188, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .book-details h2 {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+  /* line 193, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .author-link a {
+    font-size: 13px;
+  }
+  /* line 197, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .title-detail {
+    font-size: 12px;
+    padding-left: 15px;
+  }
+  /* line 202, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 208, /home/iggy/Documents/skylab-project/front-end-project/scss/_category.scss */
+  .description-detail a {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */
