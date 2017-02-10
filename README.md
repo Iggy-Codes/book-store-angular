@@ -31,7 +31,7 @@ All the code has been developed under the [JavaScript Standard Style](http://sta
 ## Authors
 
 * [Stivali Serna] (https://github.com/stivaliserna)
-* [Oscar Viciana] (https://github.com/)
+* [Oscar Viciana] (https://github.com/oviciana)
 * [Ignasi Amargós](http://github.com/Iggy-Codes) 
 
 ## License
