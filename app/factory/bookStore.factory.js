@@ -26,47 +26,14 @@
       var url = cfg.urlHome.replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
         .then(getListDetails)
-        .then(function (arrayList) {
-          return arrayList.filter(function (element) {
-            if (element.list_name_encoded === urlListName) return element
-          })
-        })
+        .then(getListName)
     }
 
     function getBooksByAuthor (authorName) {
       authorName = encodeURI(authorName)
       url = cfg.urlAuthor.replace('<%AUTHOR%>', authorName).replace('<%API-KEY%>', cfg.apiKey)
       return $http.get(url)
-      .then(function (response) {
-        var aBooks = response.data.results
-        // new array without elements that not have isbns
-        var aBooksFiltered = aBooks.filter(function (book) {
-          var bcontrol = true
-          if (book.isbns.length === 0) {
-            bcontrol = false
-          } else if (book.isbns[book.isbns.length - 1].isbn13 === '') {
-            bcontrol = false
-          } else if (book.description === '' && book.publisher === '') {
-            bcontrol = false
-          }
-          return bcontrol
-        })
-        // created a new array with elements to pass
-        return aBooksFiltered.map(function (bookAuthor) {
-          // get the last isbn13 in the array isbns because is near of actually date
-          var elemIsbn13 = bookAuthor.isbns[bookAuthor.isbns.length - 1].isbn13
-          var category = bookAuthor.ranks_history.length ? bookAuthor.ranks_history[bookAuthor.ranks_history.length - 1].display_name : ''
-          return {
-            isbn: elemIsbn13,
-            description: bookAuthor.description,
-            title: bookAuthor.title,
-            author: bookAuthor.author,
-            img: cfg.urlImageBook.replace('<%ISBN13%>', elemIsbn13),
-            category: category,
-            publisher: bookAuthor.publisher
-          }
-        })
-      })
+      .then(getBooksNotEmpty)
     }
 
     return {
@@ -136,6 +103,43 @@
         return {
           list_name_encoded: element.list_name_encoded,
           display_name: element.display_name
+        }
+      })
+    }
+
+    function getListName (arrayList) {
+      return arrayList.filter(function (element) {
+        if (element.list_name_encoded === urlListName) return element
+      })
+    }
+
+    function getBooksNotEmpty (response) {
+      var aBooks = response.data.results
+      // new array without elements that not have isbns
+      var aBooksFiltered = aBooks.filter(function (book) {
+        var bcontrol = true
+        if (book.isbns.length === 0) {
+          bcontrol = false
+        } else if (book.isbns[book.isbns.length - 1].isbn13 === '') {
+          bcontrol = false
+        } else if (book.description === '' && book.publisher === '') {
+          bcontrol = false
+        }
+        return bcontrol
+      })
+      // created a new array with elements to pass
+      return aBooksFiltered.map(function (bookAuthor) {
+        // get the last isbn13 in the array isbns because is near of actually date
+        var elemIsbn13 = bookAuthor.isbns[bookAuthor.isbns.length - 1].isbn13
+        var category = bookAuthor.ranks_history.length ? bookAuthor.ranks_history[bookAuthor.ranks_history.length - 1].display_name : ''
+        return {
+          isbn: elemIsbn13,
+          description: bookAuthor.description,
+          title: bookAuthor.title,
+          author: bookAuthor.author,
+          img: cfg.urlImageBook.replace('<%ISBN13%>', elemIsbn13),
+          category: category,
+          publisher: bookAuthor.publisher
         }
       })
     }
